@@ -11,7 +11,7 @@
 
 body {
   background: #fff;
-  color: #2f3138;
+  color: #57d1d6;
   font-family: "Open Sans", sans-serif;
 }
 
@@ -695,14 +695,92 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 /*--------------------------------------------------------------
-# Speakers Section
+# consultation Section
 --------------------------------------------------------------*/
+#consultation {
+  background: url(/img/consul-bg.jpg);
+  background-size: cover;
+  overflow: hidden;
+  position: relative;
+  color: #fff;
+  padding: 60px 0 40px 0;
+}
 
+#consultation:before {
+  content: "";
+  background: rgba(13, 20, 41, 0.8);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#consultation h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+#consultation h3 {
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+#consultation p {
+  font-size: 14px;
+  margin-bottom: 20px;
+  color: #fff;
+}
 
 
 /*--------------------------------------------------------------
-# Schedule Section
+#The Motivate Section
 --------------------------------------------------------------*/
+#motive {
+  background: url(/img/motive-bg.jpg);
+  background-size: cover;
+  overflow: hidden;
+  position: relative;
+  color: #fff;
+  padding: 60px 0 40px 0;
+}
+
+#motive:before {
+  content: "";
+  background: rgba(13, 20, 41, 0.8);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#motive h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+#motive h3 {
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+#motive p {
+  font-size: 14px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
 
 
 
