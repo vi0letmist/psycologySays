@@ -53,9 +53,9 @@
         <ul class="nav-menu">
           <li class="menu-active"><a href="#intro">Home</a></li>
           <li><a href="#about">About</a></li>
-          <li><a href="#speakers">Consultation</a></li>
-          <li><a href="#schedule">The Motivate</a></li>
-          <li><a href="#venue">Share With Us</a></li>
+          <li><a href="#consultation">Consultation</a></li>
+          <li><a href="#motive">The Motivate</a></li>
+          <li><a href="#shareW">Share With Us</a></li>
           <li class="buy-tickets"><a href="#buy-tickets">Login</a></li>
         </ul>
       </nav><!-- #nav-menu-container -->
@@ -83,47 +83,111 @@
     <section id="about">
       <div class="container">
         <div class="row">
-          <div class="col-lg-6">
-            <h2>About The Event</h2>
+          <div class="col-lg-3">
+            <h2>psycologySays</h2>
+            <img src="img/psikologi.png">
+          </div>
+          <div class="col-lg-9">
+            <h3>About the Web</h3>
             <p>Sed nam ut dolor qui repellendus iusto odit. Possimus inventore eveniet accusamus error amet eius aut
               accusantium et. Non odit consequatur repudiandae sequi ea odio molestiae. Enim possimus sunt inventore in
-              est ut optio sequi unde.</p>
-          </div>
-          <div class="col-lg-3">
-            <h3>Where</h3>
-            <p>Downtown Conference Center, New York</p>
-          </div>
-          <div class="col-lg-3">
-            <h3>When</h3>
-            <p>Monday to Wednesday<br>10-12 December</p>
+              est ut optio sequi unde.Sed nam ut dolor qui repellendus iusto odit. Possimus inventore eveniet accusamus error amet eius aut
+              accusantium et. Non odit consequatur repudiandae sequi ea odio molestiae. Enim possimus sunt inventore in
+              est ut optio sequi unde.Sed nam ut dolor qui repellendus iusto odit. Possimus inventore eveniet accusamus error amet eius aut
+              accusantium et. Non odit consequatur repudiandae sequi ea odio molestiae. Enim possimus sunt inventore in
+              est ut optio sequi unde.Sed nam ut dolor qui repellendus iusto odit. Possimus inventore eveniet accusamus error amet eius aut
+              accusantium et. Non odit consequatur repudiandae sequi ea odio molestiae. Enim possimus sunt inventore in
+              est ut optio sequi unde.Sed nam ut dolor qui repellendus iusto odit. Possimus inventore eveniet accusamus error amet eius aut
+              accusantium et.</p>
+              <a href="#about" class="about-btn scrollto">Read More</a>
           </div>
         </div>
       </div>
     </section>
 
     <!--==========================
-      Speakers Section
+      Consultation Section
     ============================-->
-    
+    <section id="consultation">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h2>Colsultation Sementara</h2>
+            <p>Sed nam ut dolor qui repellendus iusto odit. Possimus inventore eveniet accusamus error amet eius aut
+              accusantium et. Non odit consequatur repudiandae sequi ea odio molestiae. Enim possimus sunt inventore in
+              est ut optio sequi unde.Sed nam ut dolor qui repellendus iusto odit. Possimus inventore eveniet accusamus error amet eius aut
+              accusantium et. Non odit consequatur repudiandae sequi ea odio molestiae. Enim possimus sunt inventore in
+              est ut optio sequi unde.Sed nam ut dolor qui repellendus iusto odit. Possimus inventore eveniet accusamus error amet eius aut
+              accusantium et. Non odit consequatur repudiandae sequi ea odio molestiae. Enim possimus sunt inventore in
+              est ut optio sequi unde.Sed nam ut dolor qui repellendus iusto odit. Possimus inventore eveniet accusamus error amet eius aut
+              accusantium et. Non odit consequatur repudiandae sequi ea odio molestiae. Enim possimus sunt inventore in
+              est ut optio sequi unde.est ut optio sequi unde.Sed nam ut dolor qui repellendus iusto odit. Possimus inventore eveniet accusamus error amet eius aut
+              accusantium et. Non odit consequatur repudiandae sequi ea odio molestiae. Enim possimus sunt inventore in
+              est ut optio sequi undeest ut optio sequi unde.Sed nam ut dolor qui repellendus iusto odit. Possimus inventore eveniet accusamus error amet eius aut
+              accusantium et. Non odit consequatur repudiandae sequi ea odio molestiae. Enim possimus sunt inventore in
+              est ut optio sequi unde</p>
+              <a href="#consultation" class="about-btn scrollto">Read More</a>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!--==========================
-      Schedule Section
+      The Motivate Section
     ============================-->
-    
-          <!-- End Schdule Day 1 -->
-
-          <!-- Schdule Day 2 -->
-          
-          <!-- End Schdule Day 2 -->
-
-          <!-- Schdule Day 3 -->
-          
-          <!-- End Schdule Day 2 -->
+    <section id="motive">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-9">
+            <h2>About The Menu</h2>
+            <p>Sed nam ut dolor qui repellendus iusto odit. Possimus inventore eveniet accusamus error amet eius aut
+              accusantium et. Non odit consequatur repudiandae sequi ea odio molestiae. Enim possimus sunt inventore in
+              est ut optio sequi unde.Sed nam ut dolor qui repellendus iusto odit. Possimus inventore eveniet accusamus error amet eius aut
+              accusantium et. Non odit consequatur repudiandae sequi ea odio molestiae. Enim possimus sunt inventore in
+              est ut optio sequi unde.Sed nam ut dolor qui repellendus iusto odit. Possimus inventore eveniet accusamus error amet eius aut
+              accusantium et. Non odit consequatur repudiandae sequi ea odio molestiae. Enim possimus sunt inventore in
+              est ut optio sequi unde.Sed nam ut dolor qui repellendus iusto odit. Possimus inventore eveniet accusamus error amet eius aut
+              accusantium et. Non odit consequatur repudiandae sequi ea odio molestiae. Enim possimus sunt inventore in
+              est ut optio sequi unde.Sed nam ut dolor qui repellendus iusto odit. Possimus inventore eveniet accusamus error amet eius aut
+              accusantium et. Non odit consequatur repudiandae sequi ea odio molestiae. Enim possimus sunt inventore in
+              est ut optio sequi unde.</p>
+              <a href="#motive" class="about-btn scrollto">Read More</a>
+          </div>
+          <div class="col-lg-3">
+            <h3>The Motivate</h3>
+            <p>Monday to Wednesday<br>10-12 December</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
       
     <!--==========================
-      Venue Section
+      Share With Us Section
     ============================-->
+    <section id="shareW">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3">
+            <h2>Share With Us</h2>
+          </div>
+          <div class="col-lg-9">
+            <h3>About the Menu</h3>
+            <p>Sed nam ut dolor qui repellendus iusto odit. Possimus inventore eveniet accusamus error amet eius aut
+              accusantium et. Non odit consequatur repudiandae sequi ea odio molestiae. Enim possimus sunt inventore in
+              est ut optio sequi unde.Sed nam ut dolor qui repellendus iusto odit. Possimus inventore eveniet accusamus error amet eius aut
+              accusantium et. Non odit consequatur repudiandae sequi ea odio molestiae. Enim possimus sunt inventore in
+              est ut optio sequi unde.Sed nam ut dolor qui repellendus iusto odit. Possimus inventore eveniet accusamus error amet eius aut
+              accusantium et. Non odit consequatur repudiandae sequi ea odio molestiae. Enim possimus sunt inventore in
+              est ut optio sequi unde.Sed nam ut dolor qui repellendus iusto odit. Possimus inventore eveniet accusamus error amet eius aut
+              accusantium et. Non odit consequatur repudiandae sequi ea odio molestiae. Enim possimus sunt inventore in
+              est ut optio sequi unde.Sed nam ut dolor qui repellendus iusto odit. Possimus inventore eveniet accusamus error amet eius aut
+              accusantium et.</p>
+              <a href="#shareW" class="about-btn scrollto">Read More</a>
+          </div>
+        </div>
+      </div>
+    </section>
     
 
     <!--==========================
