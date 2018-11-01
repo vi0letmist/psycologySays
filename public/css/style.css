@@ -11,12 +11,12 @@
 
 body {
   background: #fff;
-  color: #57d1d6;
+  color: #f9c359;
   font-family: "Open Sans", sans-serif;
 }
 
 a {
-  color: #f82249;
+  color: #f9c359;
   transition: 0.5s;
 }
 
@@ -72,7 +72,7 @@ h6 {
 .back-to-top {
   position: fixed;
   display: none;
-  background: #f82249;
+  background: #f9c359;
   color: #fff;
   width: 40px;
   height: 40px;
@@ -89,13 +89,13 @@ h6 {
 }
 
 .back-to-top:focus {
-  background: #e0072f;
+  background: #d68f05;
   color: #fff;
   outline: none;
 }
 
 .back-to-top:hover {
-  background: #e0072f;
+  background: #d68f05;
   color: #fff;
 }
 
@@ -114,7 +114,7 @@ h6 {
   display: block;
   width: 60px;
   height: 5px;
-  background: #f82249;
+  background: #f9c359;
   bottom: 0;
   left: calc(50% - 25px);
 }
@@ -157,7 +157,7 @@ h6 {
 
 #header.header-scrolled,
 #header.header-fixed {
-  background: rgba(6, 12, 34, 0.98);
+  background: rgba(23, 23, 23, 1);
   height: 70px;
   padding: 15px 0;
   transition: all 0.5s;
@@ -175,7 +175,7 @@ h6 {
 }
 
 #header #logo h1 span {
-  color: #f82249;
+  color: #f9c359;
 }
 
 #header #logo h1 a,
@@ -265,7 +265,7 @@ h6 {
   padding: 8px;
   text-decoration: none;
   display: inline-block;
-  color: rgba(202, 206, 221, 0.8);
+  color: rgba(190, 185, 175, 1);
   font-family: "Raleway", sans-serif;
   font-weight: 600;
   font-size: 14px;
@@ -288,7 +288,7 @@ h6 {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #f82249;
+  background-color: #f9c359;
   visibility: hidden;
   transition: all 0.3s ease-in-out 0s;
 }
@@ -302,10 +302,10 @@ h6 {
 
 .nav-menu li.buy-tickets a {
   color: #fff;
-  background: #f82249;
+  background: #f9c359;
   padding: 7px 22px;
   border-radius: 50px;
-  border: 2px solid #f82249;
+  border: 2px solid #f9c359;
   transition: all ease-in-out 0.3s;
   font-weight: 500;
   margin-left: 8px;
@@ -346,7 +346,7 @@ h6 {
 }
 
 .nav-menu ul li:hover > a {
-  background: #f82249;
+  background: #f9c359;
   color: #fff;
 }
 
@@ -383,7 +383,7 @@ h6 {
   padding-top: 18px;
   bottom: 0;
   z-index: 998;
-  background: rgba(6, 12, 34, 0.9);
+  background: rgba(72, 72, 76, 0.6);
   left: -260px;
   width: 260px;
   overflow-y: auto;
@@ -413,7 +413,7 @@ h6 {
 }
 
 #mobile-nav ul li a:hover {
-  color: #f82249;
+  color: #f9c359;
 }
 
 #mobile-nav ul li li {
@@ -430,11 +430,11 @@ h6 {
 }
 
 #mobile-nav ul .menu-has-children i.fa-chevron-up {
-  color: #f82249;
+  color: #f9c359;
 }
 
 #mobile-nav ul .menu-item-active {
-  color: #f82249;
+  color: #f9c359;
 }
 
 #mobile-body-overly {
@@ -444,7 +444,7 @@ h6 {
   top: 0;
   left: 0;
   position: fixed;
-  background: rgba(6, 12, 34, 0.8);
+  background: rgba(72, 72, 76, 0.5);
   display: none;
 }
 
@@ -477,7 +477,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #intro:before {
   content: "";
-  background: rgba(6, 12, 34, 0.8);
+  background: rgba(72, 72, 76, 0.5);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -517,7 +517,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #intro h1 span {
-  color: #f82249;
+  color: #f9c359;
 }
 
 #intro p {
@@ -529,7 +529,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #intro .play-btn {
   width: 94px;
   height: 94px;
-  background: radial-gradient(#f82249 50%, rgba(101, 111, 150, 0.15) 52%);
+  background: radial-gradient(#f9c359 50%, rgba(101, 111, 150, 0.15) 52%);
   border-radius: 50%;
   display: block;
   position: relative;
@@ -576,7 +576,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #intro .play-btn:hover::after {
-  border-left: 15px solid #f82249;
+  border-left: 15px solid #f9c359;
   -webkit-transform: scale(20);
   transform: scale(20);
 }
@@ -614,11 +614,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #fff;
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
-  border: 2px solid #f82249;
+  border: 2px solid #f9c359;
 }
 
 #intro .about-btn:hover {
-  background: #f82249;
+  background: #f9c359;
   color: #fff;
 }
 
@@ -655,24 +655,27 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------------------------------------*/
 
 #about {
-  background: url("../img/about-bg.jpg");
+  background: url("/img/about-bg11.jpg");
   background-size: cover;
   overflow: hidden;
   position: relative;
   color: #fff;
   padding: 60px 0 40px 0;
+  text-align: center;
 }
 
 #about:before {
   content: "";
-  background: rgba(13, 20, 41, 0.8);
+  background: rgba(125, 231, 201, 0.7);
   position: absolute;
   bottom: 0;
   top: 0;
   left: 0;
   right: 0;
 }
+#about .row .col-lg-9{
 
+}
 #about h2 {
   font-size: 36px;
   font-weight: bold;
@@ -683,6 +686,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #about h3 {
   font-size: 18px;
   font-weight: bold;
+  text-align: center;
   text-transform: uppercase;
   margin-bottom: 10px;
   color: #fff;
@@ -691,6 +695,27 @@ body.mobile-nav-active #mobile-nav-toggle {
 #about p {
   font-size: 14px;
   margin-bottom: 20px;
+  color: #fff;
+}
+#about .about-btn {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 32px;
+  border-radius: 50px;
+  transition: 0.5s;
+  line-height: 1;
+  margin: 10px;
+  color: #fff;
+  -webkit-animation-delay: 0.8s;
+  animation-delay: 0.8s;
+  border: 2px solid #171717;
+}
+
+#about .about-btn:hover {
+  background: #171717;
   color: #fff;
 }
 
@@ -704,11 +729,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   position: relative;
   color: #fff;
   padding: 60px 0 40px 0;
+  text-align: center;
 }
 
 #consultation:before {
   content: "";
-  background: rgba(13, 20, 41, 0.8);
+  background: rgba(176, 188, 186, 0.5);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -723,18 +749,32 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #fff;
 }
 
-#consultation h3 {
-  font-size: 18px;
-  font-weight: bold;
-  text-transform: uppercase;
-  margin-bottom: 10px;
-  color: #fff;
-}
-
 #consultation p {
   font-size: 14px;
   margin-bottom: 20px;
   color: #fff;
+}
+
+#consultation .about-btn {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 32px;
+  border-radius: 50px;
+  transition: 0.5s;
+  line-height: 1;
+  margin: 10px;
+  color: #fff;
+  -webkit-animation-delay: 0.8s;
+  animation-delay: 0.8s;
+  border: 2px solid #fff;
+}
+
+#consultation .about-btn:hover {
+  background: #fff;
+  color: #000;
 }
 
 
@@ -748,11 +788,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   position: relative;
   color: #fff;
   padding: 60px 0 40px 0;
+  text-align: center;
 }
 
 #motive:before {
   content: "";
-  background: rgba(13, 20, 41, 0.8);
+  background: rgba(191, 231, 158, 0.8);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -780,14 +821,98 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 20px;
   color: #fff;
 }
+#motive .about-btn {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 32px;
+  border-radius: 50px;
+  transition: 0.5s;
+  line-height: 1;
+  margin: 10px;
+  color: #fff;
+  -webkit-animation-delay: 0.8s;
+  animation-delay: 0.8s;
+  border: 2px solid #fff;
+}
+
+#motive .about-btn:hover {
+  background: #fff;
+  color: #000;
+}
 
 
 
 
 /*--------------------------------------------------------------
-# Venue Section
+# Share With Us Section
 --------------------------------------------------------------*/
+#shareW {
+  background: url("/img/shareW-bg.jpg");
+  background-size: cover;
+  overflow: hidden;
+  position: relative;
+  color: #fff;
+  padding: 60px 0 40px 0;
+  text-align: center;
+}
 
+#shareW:before {
+  content: "";
+  background: rgba(249, 195, 89, 0.7);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+#shareW .row .col-lg-9{
+
+}
+#shareW h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+#shareW h3 {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+#shareW p {
+  font-size: 14px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+#shareW .about-btn {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 32px;
+  border-radius: 50px;
+  transition: 0.5s;
+  line-height: 1;
+  margin: 10px;
+  color: #fff;
+  -webkit-animation-delay: 0.8s;
+  animation-delay: 0.8s;
+  border: 2px solid #fff;
+}
+
+#shareW .about-btn:hover {
+  background: #fff;
+  color: #000;
+}
 
 
 /*--------------------------------------------------------------
@@ -836,14 +961,14 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------------------------------------*/
 
 #footer {
-  background: #101522;
+  background: #040404;
   padding: 0 0 25px 0;
   color: #eee;
   font-size: 14px;
 }
 
 #footer .footer-top {
-  background: #040919;
+  background: #171717;
   padding: 60px 0 30px 0;
 }
 
@@ -890,7 +1015,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #f82249;
+  background: #f9c359;
   color: #fff;
 }
 
@@ -901,7 +1026,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-transform: uppercase;
   position: relative;
   padding-bottom: 12px;
-  border-bottom: 2px solid #f82249;
+  border-bottom: 2px solid #f9c359;
 }
 
 #footer .footer-top .footer-links {
@@ -916,7 +1041,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #footer .footer-top .footer-links ul i {
   padding-right: 5px;
-  color: #f82249;
+  color: #f9c359;
   font-size: 18px;
 }
 
@@ -934,7 +1059,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #footer .footer-top .footer-links ul a:hover {
-  color: #f82249;
+  color: #f9c359;
 }
 
 #footer .footer-top .footer-contact {
@@ -956,7 +1081,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #footer .footer-top .footer-newsletter input[type="submit"] {
-  background: #f82249;
+  background: #f9c359;
   border: 0;
   width: 35%;
   padding: 6px 0;
@@ -967,7 +1092,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #footer .footer-top .footer-newsletter input[type="submit"]:hover {
-  background: #e0072f;
+  background: #d68f05;
 }
 
 #footer .copyright {
