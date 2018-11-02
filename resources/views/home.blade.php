@@ -109,7 +109,7 @@
       Consultation Section
     ============================-->
     <section id="consultation">
-      <div class="container">
+      <div class="container wow fadeInUp">
         <div class="row">
           <div class="col-md-12">
             <h2>Colsultation Sementara</h2>
@@ -136,7 +136,7 @@
       The Motivate Section
     ============================-->
     <section id="motive">
-      <div class="container">
+      <div class="container wow fadeInUp">
         <div class="row">
           <div class="col-lg-9">
             <h2>About The Menu</h2>
@@ -166,7 +166,7 @@
       Share With Us Section
     ============================-->
     <section id="shareW">
-      <div class="container">
+      <div class="container wow fadeInUp">
         <div class="row">
           <div class="col-lg-3">
             <h2>Share With Us</h2>
