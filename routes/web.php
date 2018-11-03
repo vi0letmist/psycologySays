@@ -17,3 +17,6 @@ Route::get('/', function () {
 Route::get('home', function () {
     return view('home');
 });
+Route::get('consultation', function () {
+    return view('consultation');
+});

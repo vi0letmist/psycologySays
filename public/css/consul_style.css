@@ -10,13 +10,13 @@
 --------------------------------------------------------------*/
 
 body {
-  background: #fff;
-  color: #f9c359;
+  background: #1ea391;
+  color: #7dd5c9;
   font-family: "Open Sans", sans-serif;
 }
 
 a {
-  color: #f9c359;
+  color: #7dd5c9;
   transition: 0.5s;
 }
 
@@ -64,7 +64,7 @@ h6 {
   width: 100%;
   height: 100%;
   overflow: visible;
-  background: #fff url("../img/preloader.svg") no-repeat center center;
+  background: #fff url(/svg/three-dots.svg) no-repeat center center;
 }
 
 /* Back to top button */
@@ -72,7 +72,7 @@ h6 {
 .back-to-top {
   position: fixed;
   display: none;
-  background: #f9c359;
+  background: #7dd5c9;
   color: #fff;
   width: 40px;
   height: 40px;
@@ -89,13 +89,13 @@ h6 {
 }
 
 .back-to-top:focus {
-  background: #d68f05;
+  background: #1ea391;
   color: #fff;
   outline: none;
 }
 
 .back-to-top:hover {
-  background: #d68f05;
+  background: #1ea391;
   color: #fff;
 }
 
@@ -114,7 +114,7 @@ h6 {
   display: block;
   width: 60px;
   height: 5px;
-  background: #f9c359;
+  background: #7dd5c9;
   bottom: 0;
   left: calc(50% - 25px);
 }
@@ -175,7 +175,7 @@ h6 {
 }
 
 #header #logo h1 span {
-  color: #f9c359;
+  color: #7dd5c9;
 }
 
 #header #logo h1 a,
@@ -288,7 +288,7 @@ h6 {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #f9c359;
+  background-color: #7dd5c9;
   visibility: hidden;
   transition: all 0.3s ease-in-out 0s;
 }
@@ -302,10 +302,10 @@ h6 {
 
 .nav-menu li.buy-tickets a {
   color: #fff;
-  background: #f9c359;
+  background: #7dd5c9;
   padding: 7px 22px;
   border-radius: 50px;
-  border: 2px solid #f9c359;
+  border: 2px solid #7dd5c9;
   transition: all ease-in-out 0.3s;
   font-weight: 500;
   margin-left: 8px;
@@ -346,7 +346,7 @@ h6 {
 }
 
 .nav-menu ul li:hover > a {
-  background: #f9c359;
+  background: #7dd5c9;
   color: #fff;
 }
 
@@ -413,7 +413,7 @@ h6 {
 }
 
 #mobile-nav ul li a:hover {
-  color: #f9c359;
+  color: #7dd5c9;
 }
 
 #mobile-nav ul li li {
@@ -430,11 +430,11 @@ h6 {
 }
 
 #mobile-nav ul .menu-has-children i.fa-chevron-up {
-  color: #f9c359;
+  color: #7dd5c9;
 }
 
 #mobile-nav ul .menu-item-active {
-  color: #f9c359;
+  color: #7dd5c9;
 }
 
 #mobile-body-overly {
@@ -468,8 +468,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #intro {
   width: 100%;
-  height: 100vh;
-  background: url(/img/intro-bg.jpg) top center;
+  height: 60vh;
+  background: url(/img/consul.png) top center;
   background-size: cover;
   overflow: hidden;
   position: relative;
@@ -477,7 +477,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #intro:before {
   content: "";
-  background: rgba(72, 72, 76, 0.5);
+  background: rgba(125, 213, 201, 0);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -517,88 +517,30 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #intro h1 span {
-  color: #f9c359;
+  color: #7dd5c9;
+}
+#intro h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+#intro h3 {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  color: #fff;
 }
 
 #intro p {
-  color: #ebebeb;
-  font-weight: 700;
-  font-size: 20px;
+  font-size: 14px;
+  margin-bottom: 20px;
+  color: #fff;
 }
 
-#intro .play-btn {
-  width: 94px;
-  height: 94px;
-  background: radial-gradient(#f9c359 50%, rgba(101, 111, 150, 0.15) 52%);
-  border-radius: 50%;
-  display: block;
-  position: relative;
-  overflow: hidden;
-}
-
-#intro .play-btn::after {
-  content: '';
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  -webkit-transform: translateX(-40%) translateY(-50%);
-  transform: translateX(-40%) translateY(-50%);
-  width: 0;
-  height: 0;
-  border-top: 10px solid transparent;
-  border-bottom: 10px solid transparent;
-  border-left: 15px solid #fff;
-  z-index: 100;
-  transition: all 400ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
-}
-
-#intro .play-btn:before {
-  content: '';
-  position: absolute;
-  width: 120px;
-  height: 120px;
-  -webkit-animation-delay: 0s;
-  animation-delay: 0s;
-  -webkit-animation: pulsate-btn 2s;
-  animation: pulsate-btn 2s;
-  -webkit-animation-direction: forwards;
-  animation-direction: forwards;
-  -webkit-animation-iteration-count: infinite;
-  animation-iteration-count: infinite;
-  -webkit-animation-timing-function: steps;
-  animation-timing-function: steps;
-  opacity: 1;
-  border-radius: 50%;
-  border: 2px solid rgba(163, 163, 163, 0.4);
-  top: -15%;
-  left: -15%;
-  background: rgba(198, 16, 0, 0);
-}
-
-#intro .play-btn:hover::after {
-  border-left: 15px solid #f9c359;
-  -webkit-transform: scale(20);
-  transform: scale(20);
-}
-
-#intro .play-btn:hover::before {
-  content: '';
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  -webkit-transform: translateX(-40%) translateY(-50%);
-  transform: translateX(-40%) translateY(-50%);
-  width: 0;
-  height: 0;
-  border: none;
-  border-top: 10px solid transparent;
-  border-bottom: 10px solid transparent;
-  border-left: 15px solid #fff;
-  z-index: 200;
-  -webkit-animation: none;
-  animation: none;
-  border-radius: 0;
-}
 
 #intro .about-btn {
   font-family: "Raleway", sans-serif;
@@ -614,11 +556,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #fff;
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
-  border: 2px solid #f9c359;
+  border: 2px solid #7dd5c9;
 }
 
 #intro .about-btn:hover {
-  background: #f9c359;
+  background: #7dd5c9;
   color: #fff;
 }
 
@@ -653,247 +595,35 @@ body.mobile-nav-active #mobile-nav-toggle {
 /*--------------------------------------------------------------
 # About Section
 --------------------------------------------------------------*/
-
-#about {
-  background: url("/img/about-bg11.jpg");
-  background-size: cover;
-  overflow: hidden;
-  position: relative;
-  color: #fff;
-  padding: 60px 0 40px 0;
-  text-align: center;
-}
-
-#about:before {
-  content: "";
-  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f9c359+28,ffffff+28 */
-background: #f9c359; /* Old browsers */
-background: -moz-linear-gradient(left, #7dd5c9 30%, #ffffff 30%); /* FF3.6-15 */
-background: -webkit-linear-gradient(left, #7dd5c9 30%,#ffffff 30%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to right, #7dd5c9 30%,#ffffff 30%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7dd5c9', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 */
-  position: absolute;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  right: 0;
-}
-#about .row .col-lg-9{
-
-}
-#about h2 {
-  font-size: 36px;
-  font-weight: bold;
-  margin-bottom: 10px;
-  color: #171717;
-}
-
-#about h3 {
-  font-size: 18px;
-  font-weight: bold;
-  text-align: center;
-  text-transform: uppercase;
-  margin-bottom: 10px;
-  color: #171717;
-}
-
-#about p {
-  font-size: 14px;
-  margin-bottom: 20px;
-  color: #171717;
-}
-#about .about-btn {
-  font-family: "Raleway", sans-serif;
-  font-weight: 500;
-  font-size: 14px;
-  letter-spacing: 1px;
-  display: inline-block;
-  padding: 12px 32px;
-  border-radius: 50px;
-  transition: 0.5s;
-  line-height: 1;
-  margin: 10px;
-  color: #171717;
-  -webkit-animation-delay: 0.8s;
-  animation-delay: 0.8s;
-  border: 2px solid #7dd5c9;
-}
-
-#about .about-btn:hover {
-  background: #7dd5c9;
-  color: #fff;
-}
-
-/*--------------------------------------------------------------
-# consultation Section
---------------------------------------------------------------*/
-#consultation {
-  background: url(/img/consul-bg.jpg);
-  background-size: cover;
-  overflow: hidden;
-  position: relative;
-  color: #fff;
-  padding: 60px 0 40px 0;
-  text-align: center;
-}
-
-#consultation:before {
-  content: "";
-  background: rgba(176, 188, 186, 0.5);
-  position: absolute;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  right: 0;
-}
-
-#consultation h2 {
-  font-size: 36px;
-  font-weight: bold;
-  margin-bottom: 10px;
-  color: #fff;
-}
-
-#consultation p {
-  font-size: 14px;
-  margin-bottom: 20px;
-  color: #fff;
-}
-
-#consultation .about-btn {
-  font-family: "Raleway", sans-serif;
-  font-weight: 500;
-  font-size: 14px;
-  letter-spacing: 1px;
-  display: inline-block;
-  padding: 12px 32px;
-  border-radius: 50px;
-  transition: 0.5s;
-  line-height: 1;
-  margin: 10px;
-  color: #fff;
-  -webkit-animation-delay: 0.8s;
-  animation-delay: 0.8s;
-  border: 2px solid #fff;
-}
-
-#consultation .about-btn:hover {
-  background: #fff;
-  color: #000;
-}
-
-
-/*--------------------------------------------------------------
-#The Motivate Section
---------------------------------------------------------------*/
-#motive {
-  background: url(/img/motive-bg.jpg);
-  background-size: cover;
-  overflow: hidden;
-  position: relative;
-  color: #fff;
-  padding: 60px 0 40px 0;
-  text-align: center;
-}
-
-#motive:before {
-  content: "";
-  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+73,bfe79e+73 */
-background: #ffffff; /* Old browsers */
-background: -moz-linear-gradient(left, #ffffff 70%, #bfe79e 70%); /* FF3.6-15 */
-background: -webkit-linear-gradient(left, #ffffff 70%,#bfe79e 70%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to right, #ffffff 70%,#bfe79e 70%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#bfe79e',GradientType=1 ); /* IE6-9 */
-  position: absolute;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  right: 0;
-}
-
-#motive h2 {
-  font-size: 36px;
-  font-weight: bold;
-  margin-bottom: 10px;
-  color: #171717;
-}
-
-#motive h3 {
-  font-size: 18px;
-  font-weight: bold;
-  text-transform: uppercase;
-  margin-bottom: 10px;
-  color: #171717;
-}
-
-#motive p {
-  font-size: 14px;
-  margin-bottom: 20px;
-  color: #171717;
-}
-#motive .about-btn {
-  font-family: "Raleway", sans-serif;
-  font-weight: 500;
-  font-size: 14px;
-  letter-spacing: 1px;
-  display: inline-block;
-  padding: 12px 32px;
-  border-radius: 50px;
-  transition: 0.5s;
-  line-height: 1;
-  margin: 10px;
-  color: #171717;
-  -webkit-animation-delay: 0.8s;
-  animation-delay: 0.8s;
-  border: 2px solid #bfe79e;
-}
-
-#motive .about-btn:hover {
-  background: #bfe79e;
-  color: #000;
-}
-
-
-
-
-/*--------------------------------------------------------------
-# Share With Us Section
---------------------------------------------------------------*/
-#shareW {
+#consul_head {
   background: url("/img/shareW-bg.jpg");
   background-size: cover;
   overflow: hidden;
   position: relative;
   color: #fff;
   padding: 60px 0 40px 0;
-  text-align: center;
 }
 
-#shareW:before {
+#consul_head:before {
   content: "";
-  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f9c359+28,ffffff+28 */
-background: #f9c359; /* Old browsers */
-background: -moz-linear-gradient(left, #f9c359 30%, #ffffff 30%); /* FF3.6-15 */
-background: -webkit-linear-gradient(left, #f9c359 30%,#ffffff 30%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to right, #f9c359 30%,#ffffff 30%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9c359', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 */
+  background: rgba(245, 245, 245, 1);
   position: absolute;
   bottom: 0;
   top: 0;
   left: 0;
   right: 0;
 }
-#shareW .row .col-lg-9{
+#consul_head .row .col-lg-9{
 
 }
-#shareW h2 {
+#consul_head h2 {
   font-size: 36px;
   font-weight: bold;
   margin-bottom: 10px;
   color: #171717;
 }
 
-#shareW h3 {
+#consul_head h3 {
   font-size: 18px;
   font-weight: bold;
   text-align: center;
@@ -902,32 +632,104 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9c359', end
   color: #171717;
 }
 
-#shareW p {
+#consul_head p {
   font-size: 14px;
   margin-bottom: 20px;
   color: #171717;
 }
-#shareW .about-btn {
+#consul_head .about-btn {
   font-family: "Raleway", sans-serif;
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 1px;
   display: inline-block;
-  padding: 12px 32px;
+  padding: 12px 20px;
   border-radius: 50px;
   transition: 0.5s;
   line-height: 1;
-  margin: 10px;
+  margin: 0px;
   color: #171717;
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
-  border: 2px solid #f9c359;
+  border: 2px solid #7dd5c9;
 }
 
-#shareW .about-btn:hover {
-  background: #f9c359;
-  color: #000;
+#consul_head .about-btn:hover {
+  background: #7dd5c9;
+  color: #fff;
 }
+
+
+/*--------------------------------------------------------------
+# Topic Section
+--------------------------------------------------------------*/
+#topic {
+  background: url("/img/shareW-bg.jpg");
+  background-size: cover;
+  overflow: hidden;
+  position: relative;
+  color: #fff;
+  padding: 0 0 40px 0;
+}
+
+#topic:before {
+  content: "";
+  background: rgba(245, 245, 245, 1);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+#topic .col-lg-3{
+  text-align: right;
+}
+#topic .postingan{
+  background: rgba(255, 255, 255, 1);
+  padding: 10px 10px 20px 10px;
+  margin: 0 0 20px 0;
+  -webkit-box-shadow: 0px 10px 20px 0px rgba(153, 153, 153, 0.1);
+  box-shadow: 0px 10px 20px 0px rgba(153, 153, 153, 0.1);
+}
+#topic .popular{
+  background: rgba(255, 255, 255, 1);
+  padding: 10px 10px 20px 10px;
+  margin: 0 0 10px 0;
+  -webkit-box-shadow: 0px 10px 20px 0px rgba(153, 153, 153, 0.1);
+  box-shadow: 0px 10px 20px 0px rgba(153, 153, 153, 0.1);
+}
+#topic h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #171717;
+}
+
+#topic h3 {
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  color: #171717;
+}
+
+#topic p {
+  font-size: 14px;
+  margin-bottom: 20px;
+  color: #171717;
+}
+
+
+/*--------------------------------------------------------------
+#The Motivate Section
+--------------------------------------------------------------*/
+
+
+
+/*--------------------------------------------------------------
+# Share With Us Section
+--------------------------------------------------------------*/
+
 
 
 /*--------------------------------------------------------------
@@ -1030,7 +832,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9c359', end
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #f9c359;
+  background: #7dd5c9;
   color: #fff;
 }
 
@@ -1041,7 +843,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9c359', end
   text-transform: uppercase;
   position: relative;
   padding-bottom: 12px;
-  border-bottom: 2px solid #f9c359;
+  border-bottom: 2px solid #7dd5c9;
 }
 
 #footer .footer-top .footer-links {
@@ -1056,7 +858,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9c359', end
 
 #footer .footer-top .footer-links ul i {
   padding-right: 5px;
-  color: #f9c359;
+  color: #7dd5c9;
   font-size: 18px;
 }
 
@@ -1074,7 +876,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9c359', end
 }
 
 #footer .footer-top .footer-links ul a:hover {
-  color: #f9c359;
+  color: #7dd5c9;
 }
 
 #footer .footer-top .footer-contact {
@@ -1096,7 +898,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9c359', end
 }
 
 #footer .footer-top .footer-newsletter input[type="submit"] {
-  background: #f9c359;
+  background: #7dd5c9;
   border: 0;
   width: 35%;
   padding: 6px 0;
