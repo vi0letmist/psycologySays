@@ -10,13 +10,13 @@
 --------------------------------------------------------------*/
 
 body {
-  background: #102003;
-  color: #bfe79e;
+  background: #fff;
+  color: #f9c359;
   font-family: "Open Sans", sans-serif;
 }
 
 a {
-  color: #bfe79e;
+  color: #f9c359;
   transition: 0.5s;
 }
 
@@ -72,7 +72,7 @@ h6 {
 .back-to-top {
   position: fixed;
   display: none;
-  background: #bfe79e;
+  background: #f9c359;
   color: #fff;
   width: 40px;
   height: 40px;
@@ -89,13 +89,13 @@ h6 {
 }
 
 .back-to-top:focus {
-  background: #102003;
+  background: #1ea391;
   color: #fff;
   outline: none;
 }
 
 .back-to-top:hover {
-  background: #102003;
+  background: #1ea391;
   color: #fff;
 }
 
@@ -114,7 +114,7 @@ h6 {
   display: block;
   width: 60px;
   height: 5px;
-  background: #bfe79e;
+  background: #f9c359;
   bottom: 0;
   left: calc(50% - 25px);
 }
@@ -175,7 +175,7 @@ h6 {
 }
 
 #header #logo h1 span {
-  color: #bfe79e;
+  color: #f9c359;
 }
 
 #header #logo h1 a,
@@ -288,7 +288,7 @@ h6 {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #bfe79e;
+  background-color: #f9c359;
   visibility: hidden;
   transition: all 0.3s ease-in-out 0s;
 }
@@ -302,10 +302,10 @@ h6 {
 
 .nav-menu li.buy-tickets a {
   color: #fff;
-  background: #bfe79e;
+  background: #f9c359;
   padding: 7px 22px;
   border-radius: 50px;
-  border: 2px solid #bfe79e;
+  border: 2px solid #f9c359;
   transition: all ease-in-out 0.3s;
   font-weight: 500;
   margin-left: 8px;
@@ -346,7 +346,7 @@ h6 {
 }
 
 .nav-menu ul li:hover > a {
-  background: #bfe79e;
+  background: #f9c359;
   color: #fff;
 }
 
@@ -413,7 +413,7 @@ h6 {
 }
 
 #mobile-nav ul li a:hover {
-  color: #bfe79e;
+  color: #f9c359;
 }
 
 #mobile-nav ul li li {
@@ -430,11 +430,11 @@ h6 {
 }
 
 #mobile-nav ul .menu-has-children i.fa-chevron-up {
-  color: #bfe79e;
+  color: #f9c359;
 }
 
 #mobile-nav ul .menu-item-active {
-  color: #bfe79e;
+  color: #f9c359;
 }
 
 #mobile-body-overly {
@@ -469,7 +469,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #intro {
   width: 100%;
   height: 70vh;
-  background: url(/img/consulaa.png) top center;
+  background: url(/img/sharew.jpg) top center;
   background-size: cover;
   overflow: hidden;
   position: relative;
@@ -505,7 +505,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   -ms-flex-direction: column;
   flex-direction: column;
   text-align: center;
-  padding: 0 0 0 0;
+  padding: 0 15px;
 }
 
 #intro h1 {
@@ -517,7 +517,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #intro h1 span {
-  color: #bfe79e;
+  color: #f9c359;
 }
 #intro h2 {
   font-size: 36px;
@@ -556,11 +556,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #fff;
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
-  border: 2px solid #bfe79e;
+  border: 2px solid #f9c359;
 }
 
 #intro .about-btn:hover {
-  background: #bfe79e;
+  background: #f9c359;
   color: #fff;
 }
 
@@ -601,7 +601,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   overflow: hidden;
   position: relative;
   color: #fff;
-  padding: 10px 0 40px 0;
+  padding: 60px 0 40px 0;
 }
 
 #consul_head:before {
@@ -651,11 +651,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #171717;
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
-  border: 2px solid #bfe79e;
+  border: 2px solid #f9c359;
 }
 
 #consul_head .about-btn:hover {
-  background: #bfe79e;
+  background: #f9c359;
   color: #fff;
 }
 
@@ -686,20 +686,17 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 #topic .postingan{
   background: rgba(255, 255, 255, 1);
-  padding: 0 15px 0 0;
+  padding: 0 0 0 0;
   margin: 0 0 20px 0;
   -webkit-box-shadow: 0px 10px 20px 0px rgba(153, 153, 153, 0.1);
   box-shadow: 0px 10px 20px 0px rgba(153, 153, 153, 0.1);
 }
 #topic .popular{
   background: rgba(255, 255, 255, 1);
-  padding: 0 0 0 0;
+  padding: 10px 10px 20px 10px;
   margin: 0 0 10px 0;
   -webkit-box-shadow: 0px 10px 20px 0px rgba(153, 153, 153, 0.1);
   box-shadow: 0px 10px 20px 0px rgba(153, 153, 153, 0.1);
-}
-#topic .tulis{
-  padding: 10px 10px 10px 10px;
 }
 #topic h2 {
   font-size: 36px;
@@ -721,21 +718,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 20px;
   color: #171717;
 }
-#topic .speaker {
-  position: relative;
-  background: #fff;
-  max-width: 100%;
-}
+#topic .tulis{
+  padding: 10px 0 0 10px;
+  margin: 0 0 0 0;
 
-#topic .speaker .a_gam {
-    position: relative;
 }
-#topic .speaker img {
-    max-width: 100%;
-    padding: 0 0 0 0;
-    margin: 0 0 0 0;
-}
-
 
 /*--------------------------------------------------------------
 #The Motivate Section
@@ -744,221 +731,15 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 
 /*--------------------------------------------------------------
-# Venue Section
+# Share With Us Section
 --------------------------------------------------------------*/
-#venue {
-  padding: 60px 0 0 0;
-}
 
-#venue .container-fluid {
-  margin-top: 20px;
-}
-
-#venue .venue-map iframe {
-  width: 100%;
-  height: 100%;
-  min-height: 300px;
-}
-
-#venue .venue-info {
-  background: url("../img/venue-info-bg.jpg") top center no-repeat;
-  background-size: cover;
-  position: relative;
-  padding-top: 60px;
-  padding-bottom: 60px;
-}
-
-#venue .venue-info:before {
-  content: "";
-  background: rgba(13, 20, 41, 0.8);
-  position: absolute;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  right: 0;
-}
-
-#venue .venue-info h3 {
-  font-size: 36px;
-  font-weight: 700;
-  color: #fff;
-}
-
-#venue .venue-info p {
-  color: #fff;
-  margin-bottom: 0;
-}
-
-#venue .venue-gallery-container {
-  padding-right: 12px;
-}
-
-#venue .venue-gallery {
-  overflow: hidden;
-  border-right: 0px solid #fff;
-  border-bottom: 3px solid #fff;
-}
-
-#venue .venue-gallery img {
-  transition: all ease-in-out 0.4s;
-}
-
-#venue .venue-gallery:hover img {
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
-}
-
-#intro1 {
-  height: 400px;
-  margin: 0 0 0 0;
-  padding: 0 0 0 0;
-}
-#intro2 {
-  height: 225px;
-  margin: 0 0 0 0;
-  padding: 0 0 0 0;
-}
 
 
 /*--------------------------------------------------------------
-# Speakers venue Section
+# Hotels Section
 --------------------------------------------------------------*/
-#venue {
-  padding: 60px 0 0px 0;
-}
 
-#venue .speaker {
-  position: relative;
-  overflow: hidden;
-  margin-bottom: 60px;
-  filter: brightness(50%);
-}
-#venue .speaker:hover {
-  transition: all .7s ease .1s;
-  filter: brightness(100%);
-}
-
-#venue .speaker .a_gam {
-    float: left;
-    position: relative;
-    cursor: pointer;
-}
-#venue .speaker img {
-    max-width: 100%;
-}/*
-#venue .speaker .a_gam:before {
-    transition: all .6s ease;
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: #333333;
-    transform: scale(0);
-}
-#venue .speaker .a_gam:hover:before {
-    opacity: .2;
-    transform: scale(1);
-}
-#venue .speaker .a_gam:after {
-    transition: all .7s ease .2s;
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: #252525;
-    opacity: 0;
-    transform: scale(0);
-}
-#venue .speaker .a_gam:hover:after {
-    opacity: .35;
-    transform: scale(1);
-}*/
-#venue .speaker .details {
-  background: rgba(191, 231, 158, 0.76);
-  position: absolute;
-  left: 0;
-  bottom: -100px;
-  right: 0;
-  text-align: center;
-  padding-top: 0;
-  transition: all 300ms cubic-bezier(0.645, 0.045, 0.355, 1);
-}
-
-#venue .speaker .details h3 {
-  color: #fff;
-  font-size: 22px;
-  font-weight: 600;
-  margin-bottom: 5px;
-}
-
-#venue .speaker .details p {
-  color: #fff;
-  font-size: 15px;
-  margin-bottom: 10px;
-  font-style: italic;
-}
-
-#venue .speaker .details .social {
-  height: 30px;
-}
-
-#venue .speaker .details a {
-  color: #fff;
-}
-
-#venue .speaker .details a:hover {
-  color: #f9c359;
-}
-
-#venue .speaker:hover .details {
-  bottom: 0;
-}
-
-#venue-details {
-  padding: 60px 0;
-}
-
-#venue-details .details h2 {
-  color: #112363;
-  font-size: 28px;
-  font-weight: 700;
-  margin-bottom: 10px;
-}
-
-#venue-details .details .social {
-  margin-bottom: 15px;
-}
-
-#venue-details .details .social a {
-  background: #e9edfb;
-  color: #112363;
-  line-height: 1;
-  display: inline-block;
-  text-align: center;
-  border-radius: 50%;
-  width: 36px;
-  height: 36px;
-  padding-top: 9px;
-}
-
-#venue-details .details .social a:hover {
-  background: #f9c359;
-  color: #fff;
-}
-
-#venue-details .details .social a i {
-  font-size: 18px;
-}
-
-#venue-details .details p {
-  color: #112363;
-  font-size: 15px;
-  margin-bottom: 10px;
-}
 
 
 /*--------------------------------------------------------------
@@ -1055,7 +836,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #bfe79e;
+  background: #f9c359;
   color: #fff;
 }
 
@@ -1066,7 +847,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-transform: uppercase;
   position: relative;
   padding-bottom: 12px;
-  border-bottom: 2px solid #bfe79e;
+  border-bottom: 2px solid #f9c359;
 }
 
 #footer .footer-top .footer-links {
@@ -1081,7 +862,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #footer .footer-top .footer-links ul i {
   padding-right: 5px;
-  color: #bfe79e;
+  color: #f9c359;
   font-size: 18px;
 }
 
@@ -1099,7 +880,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #footer .footer-top .footer-links ul a:hover {
-  color: #bfe79e;
+  color: #f9c359;
 }
 
 #footer .footer-top .footer-contact {
@@ -1121,7 +902,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #footer .footer-top .footer-newsletter input[type="submit"] {
-  background: #bfe79e;
+  background: #f9c359;
   border: 0;
   width: 35%;
   padding: 6px 0;

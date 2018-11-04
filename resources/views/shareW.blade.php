@@ -25,7 +25,8 @@
   <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
 
   <!-- Main Stylesheet File -->
-  <link href="css/style.css" rel="stylesheet">
+  <link href="css/share_sty.css" rel="stylesheet">
+  <link href="css/load-more-button.css" rel="stylesheet">
 
   <!-- =======================================================
     Theme Name: TheEvent
@@ -51,9 +52,9 @@
 
       <nav id="nav-menu-container">
         <ul class="nav-menu">
-          <li class="menu-active"><a href="#intro">Home</a></li>
+          <li><a href="/home">Home</a></li>
           <li><a href="#about">About</a></li>
-          <li><a href="#consultation">Consultation</a></li>
+          <li class="menu-active"><a href="#consultation">Consultation</a></li>
           <li><a href="#motive">The Motivate</a></li>
           <li><a href="#shareW">Share With Us</a></li>
           <li class="buy-tickets"><a href="#buy-tickets">Login</a></li>
@@ -67,11 +68,19 @@
   ============================-->
   <section id="intro">
     <div class="intro-container wow fadeIn">
-      <h1 class="mb-4 pb-0"><span>Psycology</span>Says</h1>
-      <p class="mb-4 pb-0">PROJECT 2 MILYAR RUPIAH, DAN SANGAT SANGAT MANTAP DALAM PENGERJAAN,   tapi bohong, hiya hiya hiya</p>
-      <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="venobox play-btn mb-4" data-vbtype="video"
-        data-autoplay="true"></a>
-      <a href="#about" class="about-btn scrollto">About The Web</a>
+      <div class="row">
+          <div class="col-lg-4">
+            
+          </div>
+          <div class="col-lg-8">
+            <h3>About the Menu</h3>
+            <p>Sed nam ut dolor qui repellendus iusto odit. Possimus inventore eveniet accusamus error amet eius aut
+              accusantium et. Non odit consequatur repudiandae sequi ea odio molestiae. Enim possimus sunt inventore in
+              est ut optio sequi unde.Sed nam ut dolor qui repellendus iusto odit. Possimus inventore eveniet accusamus error amet eius aut
+              accusantium et.</p>
+              <a href="#consul_head" class="about-btn scrollto">Read More</a>
+          </div>
+        </div>
     </div>
   </section>
 
@@ -80,53 +89,86 @@
     <!--==========================
       About Section
     ============================-->
-    <section id="about">
-      <div class="container">
+    <section id="consul_head">
+      <div class="container wow fadeInUp">
         <div class="row">
-          <div class="col-lg-3">
-            <h2>psycologySays</h2>
-            <img src="img/psikologi.png">
+          <div class="col-lg-12">
+            <h2>SHARE WITH US</h2>
+          </div>          
+          <div class="col-lg-2">
+            <a href="#shareW" class="about-btn scrollto">Make Question</a>
           </div>
-          <div class="col-lg-9">
-            <h3>About the Web</h3>
-            <p>Sed nam ut dolor qui repellendus iusto odit. Possimus inventore eveniet accusamus error amet eius aut
-              accusantium et. Non odit consequatur repudiandae sequi ea odio molestiae. Enim possimus sunt inventore in
-              est ut optio sequi unde.Sed nam ut dolor qui repellendus iusto odit. Possimus inventore eveniet accusamus error amet eius aut
-              accusantium et. Non odit consequatur repudiandae sequi ea odio molestiae. Enim possimus sunt inventore in
-              est ut optio sequi unde.Sed nam ut dolor qui repellendus iusto odit. Possimus inventore eveniet accusamus error amet eius aut
-              accusantium et. Non odit consequatur repudiandae sequi ea odio molestiae. Enim possimus sunt inventore in
-              est ut optio sequi unde.Sed nam ut dolor qui repellendus iusto odit. Possimus inventore eveniet accusamus error amet eius aut
-              accusantium et. Non odit consequatur repudiandae sequi ea odio molestiae. Enim possimus sunt inventore in
-              est ut optio sequi unde.Sed nam ut dolor qui repellendus iusto odit. Possimus inventore eveniet accusamus error amet eius aut
-              accusantium et.</p>
-              <a href="#about" class="about-btn scrollto">Read More</a>
+          <div class="col-lg-8">
+              
           </div>
         </div>
       </div>
     </section>
-
     <!--==========================
-      Consultation Section
+      Topic Section
     ============================-->
-    <section id="consultation">
-      <div class="container wow fadeInUp">
-        <div class="row">
-          <div class="col-md-12">
-            <h2>Colsultation Sementara</h2>
-            <p>Sed nam ut dolor qui repellendus iusto odit. Possimus inventore eveniet accusamus error amet eius aut
-              accusantium et. Non odit consequatur repudiandae sequi ea odio molestiae. Enim possimus sunt inventore in
-              est ut optio sequi unde.Sed nam ut dolor qui repellendus iusto odit. Possimus inventore eveniet accusamus error amet eius aut
-              accusantium et. Non odit consequatur repudiandae sequi ea odio molestiae. Enim possimus sunt inventore in
-              est ut optio sequi unde.Sed nam ut dolor qui repellendus iusto odit. Possimus inventore eveniet accusamus error amet eius aut
-              accusantium et. Non odit consequatur repudiandae sequi ea odio molestiae. Enim possimus sunt inventore in
-              est ut optio sequi unde.Sed nam ut dolor qui repellendus iusto odit. Possimus inventore eveniet accusamus error amet eius aut
-              accusantium et. Non odit consequatur repudiandae sequi ea odio molestiae. Enim possimus sunt inventore in
-              est ut optio sequi unde.est ut optio sequi unde.Sed nam ut dolor qui repellendus iusto odit. Possimus inventore eveniet accusamus error amet eius aut
-              accusantium et. Non odit consequatur repudiandae sequi ea odio molestiae. Enim possimus sunt inventore in
-              est ut optio sequi undeest ut optio sequi unde.Sed nam ut dolor qui repellendus iusto odit. Possimus inventore eveniet accusamus error amet eius aut
-              accusantium et. Non odit consequatur repudiandae sequi ea odio molestiae. Enim possimus sunt inventore in
-              est ut optio sequi unde</p>
-              <a href="/consultation" class="about-btn scrollto">Read More</a>
+    <section id="topic">
+        <div class="container">
+          <div class="row">
+             <div class="col-lg-7">
+                <div class="blog_left_sidebar">
+                  <!-- ======================= -->
+                  <div class="postingan wow fadeInUp">
+                   <div class="row">
+                      <div class="col-lg-1">
+                        <div class="tulis">
+                        <img src="/img/profile.png">
+                      </div>
+                      </div>         
+                        <div class="col-lg-11">
+                          <div class="tulis">
+                          <h4>by me</h4>
+                        </div>
+                        </div>
+                      
+                    <div class="col-lg-12"></div>
+                    <div class="col-lg-12">
+                      <div class="speaker">
+                          <img src="img/motive/2.jpg" alt="" class="img-fluid">
+                      </div>
+                    </div>
+                      <div class="col-lg-12">
+                        <div class="tulis">
+                        <h3>Lorem ipsum dolor sit amet</h3>
+                      </div>
+                      </div>
+                    </div>
+                    </div>
+                    <!-- ======================= -->
+                    @component('components.post_share',['who'=>'mee lahhhhhhhhh','image' => 'img/motive/7.jpg','title' => 'kampangggggg'])
+                    @endcomponent
+
+                    @component('components.post_share',['who'=>'mee lahhhhhhhhh','image' => 'img/motive/9.jpg','title' => 'kampangggggg'])
+                    @endcomponent
+
+                    
+
+                </div>
+            </div>
+          <div class="col-lg-5">
+            <div class="blog_right_sidebar">
+              <!-- ========================= -->
+              <aside class="popular wow fadeInUp">
+                <div class="row">
+                  <div class="col-lg-2">
+                    <img src="/img/profile.png">
+                  </div>
+                  <div class="col-lg-10">
+                    <h3>Title</h3>
+                    <p>by me</p>
+                  </div>
+                </div>
+              </aside>
+              <!-- ========================= -->
+              @component('components.popular',['title'=>'mantap mantap','who' => 'meeeeeeeeee laaah'])
+                    @endcomponent
+
+            </div>
           </div>
         </div>
       </div>
@@ -135,61 +177,12 @@
     <!--==========================
       The Motivate Section
     ============================-->
-    <section id="motive">
-      <div class="container wow fadeInUp">
-        <div class="row">
-          <div class="col-lg-9">
-            <h3>About The Menu</h3>
-            <p>Sed nam ut dolor qui repellendus iusto odit. Possimus inventore eveniet accusamus error amet eius aut
-              accusantium et. Non odit consequatur repudiandae sequi ea odio molestiae. Enim possimus sunt inventore in
-              est ut optio sequi unde.Sed nam ut dolor qui repellendus iusto odit. Possimus inventore eveniet accusamus error amet eius aut
-              accusantium et. Non odit consequatur repudiandae sequi ea odio molestiae. Enim possimus sunt inventore in
-              est ut optio sequi unde.Sed nam ut dolor qui repellendus iusto odit. Possimus inventore eveniet accusamus error amet eius aut
-              accusantium et. Non odit consequatur repudiandae sequi ea odio molestiae. Enim possimus sunt inventore in
-              est ut optio sequi unde.Sed nam ut dolor qui repellendus iusto odit. Possimus inventore eveniet accusamus error amet eius aut
-              accusantium et. Non odit consequatur repudiandae sequi ea odio molestiae. Enim possimus sunt inventore in
-              est ut optio sequi unde.Sed nam ut dolor qui repellendus iusto odit. Possimus inventore eveniet accusamus error amet eius aut
-              accusantium et. Non odit consequatur repudiandae sequi ea odio molestiae. Enim possimus sunt inventore in
-              est ut optio sequi unde.</p>
-              <a href="/motive" class="about-btn scrollto">Read More</a>
-          </div>
-          <div class="col-lg-3">
-            <h2>The Motivate</h2>
-            <p>Monday to Wednesday<br>10-12 December</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
+    
       
     <!--==========================
       Share With Us Section
     ============================-->
-    <section id="shareW">
-      <div class="container wow fadeInUp">
-        <div class="row">
-          <div class="col-lg-3">
-            <h2>Share With Us</h2>
-          </div>
-          <div class="col-lg-9">
-            <h3>About the Menu</h3>
-            <p>Sed nam ut dolor qui repellendus iusto odit. Possimus inventore eveniet accusamus error amet eius aut
-              accusantium et. Non odit consequatur repudiandae sequi ea odio molestiae. Enim possimus sunt inventore in
-              est ut optio sequi unde.Sed nam ut dolor qui repellendus iusto odit. Possimus inventore eveniet accusamus error amet eius aut
-              accusantium et. Non odit consequatur repudiandae sequi ea odio molestiae. Enim possimus sunt inventore in
-              est ut optio sequi unde.Sed nam ut dolor qui repellendus iusto odit. Possimus inventore eveniet accusamus error amet eius aut
-              accusantium et. Non odit consequatur repudiandae sequi ea odio molestiae. Enim possimus sunt inventore in
-              est ut optio sequi unde.Sed nam ut dolor qui repellendus iusto odit. Possimus inventore eveniet accusamus error amet eius aut
-              accusantium et. Non odit consequatur repudiandae sequi ea odio molestiae. Enim possimus sunt inventore in
-              est ut optio sequi unde.Sed nam ut dolor qui repellendus iusto odit. Possimus inventore eveniet accusamus error amet eius aut
-              accusantium et.</p>
-              <a href="/shareW" class="about-btn scrollto">Read More</a>
-          </div>
-        </div>
-      </div>
-    </section>
     
-
     <!--==========================
       Hotels Section
     ============================-->
@@ -309,6 +302,7 @@
   <a href="#" class="back-to-top"><i class="fa fa-angle-up"></i></a>
 
   <!-- JavaScript Libraries -->
+  <script src="js/load-more-button.js"></script>
   <script src="lib/jquery/jquery.min.js"></script>
   <script src="lib/jquery/jquery-migrate.min.js"></script>
   <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>

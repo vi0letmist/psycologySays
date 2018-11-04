@@ -23,3 +23,6 @@ Route::get('consultation', function () {
 Route::get('motive', function () {
     return view('motive');
 });
+Route::get('shareW', function () {
+    return view('shareW');
+});
