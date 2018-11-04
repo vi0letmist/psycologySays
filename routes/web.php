@@ -20,3 +20,6 @@ Route::get('home', function () {
 Route::get('consultation', function () {
     return view('consultation');
 });
+Route::get('motive', function () {
+    return view('motive');
+});
