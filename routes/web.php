@@ -20,9 +20,9 @@ Route::get('home', function () {
 Route::get('consultation', function () {
     return view('consultation');
 });
-Route::get('motive', function () {
+/* Route::get('motive', function () {
     return view('motive');
-});
+}); */
 Route::get('shareW', function () {
     return view('shareW');
 });
@@ -32,3 +32,15 @@ Route::get('login', function () {
 Route::get('register', function () {
     return view('register');
 });
+
+// Route::resource('shareW','ShareController');
+// Route::resource('consultation','ConsulController');
+Route::resource('motive','MotiveController');
+
+/* Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home'); */
