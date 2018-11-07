@@ -69,9 +69,7 @@
   <section id="venue">
 
       <div class="container-fluid">
-          @include('inc.message')
-          @yield('content')
-        {{-- <div class="row">
+        <div class="row">
           <div id="intro1" class="col-sm-6" style="background-color:lavenderblush;">
             <div class="speaker">
               
@@ -189,13 +187,17 @@
              <div class="col-lg-8">
                 <div class="blog_left_sidebar">
                   <!-- ======================= -->
+                  <div class="col-lg-12">
+                    @include('inc.message')
+                    @yield('content')
+                  </div>
                   <div class="postingan wow fadeInUp">
                    <div class="row">
                     <div class="col-sm-5">
                       <div class="speaker">
-                    <img src="img/motive/3.jpg" alt="" class="img-fluid">
-                  </div>
-                </div>
+                        <img src="img/motive/3.jpg" alt="" class="img-fluid">
+                      </div>
+                    </div>
                     <div class="col-sm-7">
                       <h4>aaaaaaaaa</h4>
                       <p>aaaaaaaa</p>
@@ -240,7 +242,7 @@
           </div>
         </div>
       </div>
-    </section> --}}
+    </section>
 
     <!--==========================
       The Motivate Section

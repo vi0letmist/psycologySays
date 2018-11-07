@@ -15,9 +15,6 @@ class Share extends Migration
     {
         Schema::create('share', function (Blueprint $table) {
             $table->increments('id_s');
-            $table->foreign('id_w')
-                    ->references('id')->on('users')
-                    ->onDelete('cascade');
             $table->string('thumbnail');
             $table->string('blog');
             $table->string('isi');

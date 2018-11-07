@@ -94,42 +94,41 @@
         <div class="row">
           <div class="col-lg-12">
             <h2>CONSULTATION</h2>
-          </div> <!--         
+          </div>          
           <div class="col-lg-2">
-
-            <a href="#shareW" class="about-btn scrollto">Make Question</a>
+            <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;" class="about-btn scrollto">Make Question</button>
+            <section id="popup1">
+            <div id="id01" class="modal">
+  
+              <form class="modal-content animate" action="/action_page.php">
+                
+            
+                <div class="container">
+                  <label for="uname"><b>Username</b></label>
+                  <input type="text" placeholder="Enter Title" name="uname" required>
+            
+                  <label for="uname"><b>Password</b></label>
+                  <input type="text" placeholder="Enter Penjelasan" name="uname" required>
+                    
+                  <button type="submit">Login</button>
+                  <label>
+                    <input type="checkbox" checked="checked" name="remember"> Remember me
+                  </label>
+                </div>
+            
+                <div class="container" style="background-color:#f1f1f1">
+                  <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                  <span class="psw">Forgot <a href="#">password?</a></span>
+                </div>
+              </form>
+            </div>
+          </section>
           </div>
           <div class="col-lg-2">
             <a href="#shareW" class="about-btn scrollto">Find Question</a>
-          </div>-->>
-          <div class="col-lg-8">
-          
-              <ul id="faq-list">
-
-                <li>
-                  <a data-toggle="collapse" class="collapsed about-btn" href="#faq1">Make Question
-                    </a><br>
-                  <div id="faq1" class="collapse" data-parent="#faq-list">
-                  <div class="form">
-                  <div id="sendmessage">Your message has been sent. Thank you!</div>
-                  <div id="errormessage"></div>
-                  {!! Form::open(['class' => 'contactForm', 'action' => 'ConsulController@store', 'method' => 'POST']) !!}
-                      <div class="form-group">
-                          {{Form::text('judul', '', ['class' =>  'form-control','placeholder' => 'Topic Title'])}}
-                      </div>
-                      <div class="form-group">
-                          {{Form::textarea('isi', '', ['class' =>  'form-control','placeholder' => 'Message'])}}
-                      </div>
-                      {{Form::submit('Send Question', ['class' => 'btn btn-primary'])}}
-                  {!! Form::close() !!}
-        </div>
-      </div>
-    </li>
-  </ul>
-
           </div>
-          <div class="col-lg-4">
-            
+          <div class="col-lg-8">
+              
           </div>
         </div>
       </div>
@@ -143,8 +142,8 @@
              <div class="col-lg-8">
                 <div class="blog_left_sidebar">
                   <!-- ======================= -->
-                    @include('inc.message')
-                    @yield('content')
+                  @component('components.post',['title'=>'kepala pening','who' => 'adi alkid','caption' => 'kepala saya berputar '])
+                    @endcomponent
                     <!-- ======================= -->
                     @component('components.post',['title'=>'mantap mantap','who' => 'meeeeeeeeee laaah','caption' => 'meeeeeeeeee laaah'])
                     @endcomponent
@@ -324,6 +323,17 @@
 
   <!-- Template Main Javascript File -->
   <script src="js/main.js"></script>
+  <script>
+    // Get the modal
+    var modal = document.getElementById('id01');
+    
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+    </script>
 </body>
 
 </html>

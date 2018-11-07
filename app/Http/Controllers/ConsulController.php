@@ -22,16 +22,16 @@ class ConsulController extends Controller
     public function store(Request $request)
     {
         $this->validate($request,  [
-            'quest' => 'required',
-            'desc' => 'required'
+            'judul' => 'required',
+            'isi' => 'required'
         ]);
 
         $csl = new Consul;
-        $csl->quest = $request->input('quest');
-        $csl->desc = $request->input('desc');
+        $csl->judul = $request->input('judul');
+        $csl->isi = $request->input('isi');
         $csl->save();
 
-        return redirect('/consul')->with('success', 'Quest submitted');
+        return redirect('/consultation')->with('success', 'Quest submitted');
     }
 
     public function show($id_c)
@@ -54,11 +54,11 @@ class ConsulController extends Controller
         ]);
 
         $csl = Consul::find($id_c);
-        $csl->quest = $request->input('quest');
-        $csl->desc = $request->input('desc');
+        $csl->judul = $request->input('judul');
+        $csl->isi = $request->input('isi');
         $csl->save();
 
-        return redirect('/consul')->with('success', 'Quest updated');
+        return redirect('/consultation')->with('success', 'Quest updated');
     }
 
     public function destroy($id_c)
@@ -66,6 +66,6 @@ class ConsulController extends Controller
         $csl =  Consul::find($id_c);
         $csl->delete(); 
 
-        return redirect('/consul')->with('success', 'Quest removed');
+        return redirect('/consultation')->with('success', 'Quest removed');
     }
 }

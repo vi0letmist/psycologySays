@@ -15,11 +15,8 @@ class Consul extends Migration
     {
         Schema::create('consul', function (Blueprint $table) {
             $table->increments('id_c');
-            $table->foreign('id_q')
-                    ->references('id')->on('users')
-                    ->onDelete('cascade');
-            $table->string('quest');
-            $table->string('desc');
+            $table->string('judul');
+            $table->string('isi');
             $table->timestamps();
         });
     }

@@ -1,16 +1,29 @@
-@extends('layout.mlayout')
+@extends('consul.consultation')
 
 @section('content')
-    <h3>{{$Motive->judul}}</h3>
-    <small>Submitted on {{$Motive->created_at}}</small>
-    <div>
-        <iframe width="420" height="315"
-            src="{{$Motive->url}}">
-        </iframe>
-    </div>
-    <a href="/quest/{{$Motive->id_m}}/edit" class="btn btn-primary">Edit</a>
+<div class="postingan wow fadeInUp">
+    <div class="row">
+       <div class="col-lg-1">
+         <img src="/img/profile.png">
+       </div>          
+     <div class="col-lg-7">
+        <h3>{{$Consul->judul}}</h3>
+       <p>{{$Users->id}}</p>
+     </div>
+     <div class="col-lg-1"></div>
+     <div class="col-lg-3">
+       <a href="#">{{$Consul->created_at}}<i class="fa fa-calendar" aria-hidden="true"></i></a><br>
+       <a href="#"> 05 <i class="fa fa-comments-o" aria-hidden="true"></i></a>
+     </div>
+       <div class="col-lg-12">
+         <p>{{$Consul->isi}}</p>
+       </div>
+     </div>
+</div>
 
-    {!! Form::open(['action' => ['ConsulController@destroy', $Motive->id_m], 'method' => 'POST', 'class' => 'btn pull-right']) !!}
+    <button class="btn btn-primary"><a href="/quest/{{$Consul->id_c}}/edit">Edit</a></button>
+
+    {!! Form::open(['action' => ['ConsulController@destroy', $Consul->id_c], 'method' => 'POST', 'class' => 'btn pull-right']) !!}
         {{Form::hidden('_method','DELETE')}}
         {{Form::submit('Delete', ['class' => 'btn btn-danger'])}}
     {!! Form::close() !!}

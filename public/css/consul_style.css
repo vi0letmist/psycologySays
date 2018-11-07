@@ -1,3 +1,4 @@
+
 /*
   Theme Name: TheEvent
   Theme URL: https://bootstrapmade.com/theevent-conference-event-bootstrap-template/
@@ -753,7 +754,52 @@ body.mobile-nav-active #mobile-nav-toggle {
 /*--------------------------------------------------------------
 # F.A.Q Section
 --------------------------------------------------------------*/
+#faq {
+  padding: 60px 0;
+}
 
+#consul_head #faq-list {
+  padding: 0 0 0 0;
+  list-style: none;
+}
+
+#faq #faq-list li {
+  border-bottom: 1px solid #ddd;
+}
+
+#faq #faq-list a {
+  padding: 18px 0;
+  display: block;
+  position: relative;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+  padding-right: 20px;
+}
+
+#faq #faq-list i {
+  font-size: 24px;
+  position: absolute;
+  right: 0;
+  top: 16px;
+}
+
+#faq #faq-list p {
+  margin-bottom: 20px;
+}
+
+#faq #faq-list a.collapse {
+  color: #7dd5c9;
+}
+
+#consul_head #faq-list a.collapsed {
+  color: #000;
+}
+
+#faq #faq-list a.collapsed i::before {
+  content: "\f055" !important;
+}
 
 
 /*--------------------------------------------------------------
@@ -771,7 +817,105 @@ body.mobile-nav-active #mobile-nav-toggle {
 /*--------------------------------------------------------------
 # Contact Section
 --------------------------------------------------------------*/
+#contact {
+  padding: 60px 0;
+}
 
+#contact .contact-info {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#contact .contact-info i {
+  font-size: 48px;
+  display: inline-block;
+  margin-bottom: 10px;
+  color: #7dd5c9;
+}
+
+#contact .contact-info address,
+#contact .contact-info p {
+  margin-bottom: 0;
+  color: #112363;
+}
+
+#contact .contact-info h3 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #112363;
+}
+
+#contact .contact-info a {
+  color: #4869df;
+}
+
+#contact .contact-info a:hover {
+  color: #7dd5c9;
+}
+
+#contact .contact-address,
+#contact .contact-phone,
+#contact .contact-email {
+  margin-bottom: 20px;
+}
+
+#consul_head .form #sendmessage {
+  color: #7dd5c9;
+  border: 1px solid #7dd5c9;
+  display: none;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+#consul_head .form #errormessage {
+  color: red;
+  display: none;
+  border: 1px solid red;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+#consul_head .form #sendmessage.show,
+#consul_head .form #errormessage.show,
+#consul_head .form .show {
+  display: block;
+}
+
+#consul_head .form .validation {
+  color: red;
+  display: none;
+  margin: 0 0 20px;
+  font-weight: 400;
+  font-size: 13px;
+}
+
+#consul_head .form input,
+#consul_head .form textarea {
+  padding: 10px 14px;
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 15px;
+}
+
+#consul_head .form button[type="submit"] {
+  background: #7dd5c9;
+  border: 0;
+  padding: 10px 40px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+#consul_head .form button[type="submit"]:hover {
+  background: #1ea391;
+}
 
 /*--------------------------------------------------------------
 # Footer
