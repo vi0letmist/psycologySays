@@ -15,7 +15,7 @@ class Share extends Migration
     {
         Schema::create('share', function (Blueprint $table) {
             $table->increments('id_s');
-            $table->string('thumbnail');
+            $table->string('gambar');
             $table->string('blog');
             $table->string('isi');
             $table->timestamps();

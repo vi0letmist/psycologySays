@@ -17,27 +17,18 @@ Route::get('/', function () {
 Route::get('home', function () {
     return view('home');
 });
-/* Route::get('consultation', function () {
-    return view('consultation');
-}); */
-/* Route::get('motive', function () {
-    return view('motive');
-}); */
-Route::get('shareW', function () {
-    return view('shareW');
-});
-Route::get('login', function () {
+/* Route::get('login', function () {
     return view('login');
 });
 Route::get('register', function () {
     return view('register');
-});
+}); */
 
-// Route::resource('shareW','ShareController');
+Route::resource('shareW','ShareController');
 Route::resource('consultation','ConsulController');
 Route::resource('motive','MotiveController');
 
-// Auth::routes();
+Auth::routes();
 
-// Route::get('/home', 'HomeController@index')->name('home');
-
+// Route::get('home', 'HomeController@index')->name('home');
+// Route::get('logout', '\App\Http\Controllers\Auth\LoginController@logout');

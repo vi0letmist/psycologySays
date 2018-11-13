@@ -11,12 +11,12 @@
 
 body {
   background: #fff;
-  color: #f9c359;
+  color: #f82249;
   font-family: "Open Sans", sans-serif;
 }
 
 a {
-  color: #f9c359;
+  color: #f82249;
   transition: 0.5s;
 }
 
@@ -64,7 +64,7 @@ h6 {
   width: 100%;
   height: 100%;
   overflow: visible;
-  background: #fff url("../img/preloader.svg") no-repeat center center;
+  background: #fff url(/img/svg/three-dots.svg) no-repeat center center;
 }
 
 /* Back to top button */
@@ -72,7 +72,7 @@ h6 {
 .back-to-top {
   position: fixed;
   display: none;
-  background: #f9c359;
+  background: #f82249;
   color: #fff;
   width: 40px;
   height: 40px;
@@ -89,13 +89,13 @@ h6 {
 }
 
 .back-to-top:focus {
-  background: #d68f05;
+  background: #e0072f;
   color: #fff;
   outline: none;
 }
 
 .back-to-top:hover {
-  background: #d68f05;
+  background: #e0072f;
   color: #fff;
 }
 
@@ -114,7 +114,7 @@ h6 {
   display: block;
   width: 60px;
   height: 5px;
-  background: #f9c359;
+  background: #f82249;
   bottom: 0;
   left: calc(50% - 25px);
 }
@@ -157,7 +157,7 @@ h6 {
 
 #header.header-scrolled,
 #header.header-fixed {
-  background: rgba(23, 23, 23, 1);
+  background: rgba(16, 1, 34, 0.98);
   height: 70px;
   padding: 15px 0;
   transition: all 0.5s;
@@ -175,7 +175,7 @@ h6 {
 }
 
 #header #logo h1 span {
-  color: #f9c359;
+  color: #f82249;
 }
 
 #header #logo h1 a,
@@ -265,7 +265,7 @@ h6 {
   padding: 8px;
   text-decoration: none;
   display: inline-block;
-  color: rgba(190, 185, 175, 1);
+  color: rgba(202, 206, 221, 0.8);
   font-family: "Raleway", sans-serif;
   font-weight: 600;
   font-size: 14px;
@@ -288,7 +288,7 @@ h6 {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #f9c359;
+  background-color: #f82249;
   visibility: hidden;
   transition: all 0.3s ease-in-out 0s;
 }
@@ -302,10 +302,10 @@ h6 {
 
 .nav-menu li.buy-tickets a {
   color: #fff;
-  background: #f9c359;
+  background: #f82249;
   padding: 7px 22px;
   border-radius: 50px;
-  border: 2px solid #f9c359;
+  border: 2px solid #f82249;
   transition: all ease-in-out 0.3s;
   font-weight: 500;
   margin-left: 8px;
@@ -346,7 +346,7 @@ h6 {
 }
 
 .nav-menu ul li:hover > a {
-  background: #f9c359;
+  background: #f82249;
   color: #fff;
 }
 
@@ -383,7 +383,7 @@ h6 {
   padding-top: 18px;
   bottom: 0;
   z-index: 998;
-  background: rgba(72, 72, 76, 0.6);
+  background: rgba(16, 1, 34, 0.9);
   left: -260px;
   width: 260px;
   overflow-y: auto;
@@ -413,7 +413,7 @@ h6 {
 }
 
 #mobile-nav ul li a:hover {
-  color: #f9c359;
+  color: #f82249;
 }
 
 #mobile-nav ul li li {
@@ -430,11 +430,11 @@ h6 {
 }
 
 #mobile-nav ul .menu-has-children i.fa-chevron-up {
-  color: #f9c359;
+  color: #f82249;
 }
 
 #mobile-nav ul .menu-item-active {
-  color: #f9c359;
+  color: #f82249;
 }
 
 #mobile-body-overly {
@@ -444,7 +444,7 @@ h6 {
   top: 0;
   left: 0;
   position: fixed;
-  background: rgba(72, 72, 76, 0.5);
+  background: rgba(16, 1, 34, 0.8);
   display: none;
 }
 
@@ -469,7 +469,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #intro {
   width: 100%;
   height: 100vh;
-  background: url(/img/intro-bg.jpg) top center;
+  background: url(/img/3.jpg) top center;
   background-size: cover;
   overflow: hidden;
   position: relative;
@@ -477,7 +477,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #intro:before {
   content: "";
-  background: rgba(72, 72, 76, 0.5);
+  background: rgba(16, 1, 34, 0.7);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -517,7 +517,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #intro h1 span {
-  color: #f9c359;
+  color: #f82249;
 }
 
 #intro p {
@@ -529,7 +529,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #intro .play-btn {
   width: 94px;
   height: 94px;
-  background: radial-gradient(#f9c359 50%, rgba(101, 111, 150, 0.15) 52%);
+  background: radial-gradient(#f82249 50%, rgba(101, 111, 150, 0.15) 52%);
   border-radius: 50%;
   display: block;
   position: relative;
@@ -576,7 +576,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #intro .play-btn:hover::after {
-  border-left: 15px solid #f9c359;
+  border-left: 15px solid #f82249;
   -webkit-transform: scale(20);
   transform: scale(20);
 }
@@ -614,11 +614,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #fff;
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
-  border: 2px solid #f9c359;
+  border: 2px solid #f82249;
 }
 
 #intro .about-btn:hover {
-  background: #f9c359;
+  background: #f82249;
   color: #fff;
 }
 
@@ -655,23 +655,17 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------------------------------------*/
 
 #about {
-  background: url("/img/about-bg11.jpg");
+  background: url("/img/about-bg.jpg");
   background-size: cover;
   overflow: hidden;
   position: relative;
   color: #fff;
   padding: 60px 0 40px 0;
-  text-align: center;
 }
 
 #about:before {
   content: "";
-  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f9c359+28,ffffff+28 */
-background: #f9c359; /* Old browsers */
-background: -moz-linear-gradient(left, #7dd5c9 30%, #ffffff 30%); /* FF3.6-15 */
-background: -webkit-linear-gradient(left, #7dd5c9 30%,#ffffff 30%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to right, #7dd5c9 30%,#ffffff 30%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7dd5c9', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 */
+  background: rgba(16, 1, 34, 0.8);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -685,22 +679,21 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7dd5c9', end
   font-size: 36px;
   font-weight: bold;
   margin-bottom: 10px;
-  color: #171717;
+  color: #fff;
 }
 
 #about h3 {
   font-size: 18px;
   font-weight: bold;
-  text-align: center;
   text-transform: uppercase;
   margin-bottom: 10px;
-  color: #171717;
+  color: #fff;
 }
 
 #about p {
   font-size: 14px;
   margin-bottom: 20px;
-  color: #171717;
+  color: #fff;
 }
 #about .about-btn {
   font-family: "Raleway", sans-serif;
@@ -728,58 +721,96 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7dd5c9', end
 # consultation Section
 --------------------------------------------------------------*/
 #consultation {
-  background: url(/img/consul-bg.jpg);
-  background-size: cover;
-  overflow: hidden;
+  padding: 60px 0 30px 0;
+}
+
+#consultation .speaker {
   position: relative;
-  color: #fff;
-  padding: 60px 0 40px 0;
-  text-align: center;
+  overflow: hidden;
+  margin-bottom: 30px;
 }
 
-#consultation:before {
-  content: "";
-  background: rgba(176, 188, 186, 0.5);
+#consultation .speaker .details {
+  background: rgba(16, 1, 34, 0.76);
   position: absolute;
-  bottom: 0;
-  top: 0;
   left: 0;
+  bottom: -30px;
   right: 0;
+  text-align: center;
+  padding-top: 10px;
+  transition: all 300ms cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 
-#consultation h2 {
-  font-size: 36px;
-  font-weight: bold;
+#consultation .speaker .details h3 {
+  color: #fff;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+#consultation .speaker .details p {
+  color: #fff;
+  font-size: 15px;
   margin-bottom: 10px;
+  font-style: italic;
+}
+
+#consultation .speaker .details .social {
+  height: 30px;
+}
+
+#consultation .speaker .details a {
   color: #fff;
 }
 
-#consultation p {
-  font-size: 14px;
-  margin-bottom: 20px;
-  color: #fff;
+#consultation .speaker .details a:hover {
+  color: #f82249;
 }
 
-#consultation .about-btn {
-  font-family: "Raleway", sans-serif;
-  font-weight: 500;
-  font-size: 14px;
-  letter-spacing: 1px;
-  display: inline-block;
-  padding: 12px 32px;
-  border-radius: 50px;
-  transition: 0.5s;
+#consultation .speaker:hover .details {
+  bottom: 0;
+}
+
+#consultation-details {
+  padding: 60px 0;
+}
+
+#consultation-details .details h2 {
+  color: #100122;
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+#consultation-details .details .social {
+  margin-bottom: 15px;
+}
+
+#consultation-details .details .social a {
+  background: #e9edfb;
+  color: #100122;
   line-height: 1;
-  margin: 10px;
-  color: #fff;
-  -webkit-animation-delay: 0.8s;
-  animation-delay: 0.8s;
-  border: 2px solid #fff;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  padding-top: 9px;
 }
 
-#consultation .about-btn:hover {
-  background: #fff;
-  color: #000;
+#consultation-details .details .social a:hover {
+  background: #f82249;
+  color: #fff;
+}
+
+#consultation-details .details .social a i {
+  font-size: 18px;
+}
+
+#consultation-details .details p {
+  color: #100122;
+  font-size: 15px;
+  margin-bottom: 10px;
 }
 
 
@@ -787,147 +818,46 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7dd5c9', end
 #The Motivate Section
 --------------------------------------------------------------*/
 #motive {
-  background: url(/img/motive-bg.jpg);
-  background-size: cover;
+  padding: 60px 0;
+}
+
+#motive .motive-wrap {
+  border-top: 1px solid #e0e5fa;
+  border-left: 1px solid #e0e5fa;
+  margin-bottom: 30px;
+}
+
+#motive .motive-logo {
+  padding: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-right: 1px solid #e0e5fa;
+  border-bottom: 1px solid #e0e5fa;
   overflow: hidden;
-  position: relative;
-  color: #fff;
-  padding: 60px 0 40px 0;
-  text-align: center;
+  background: rgba(255, 255, 255, 0.5);
+  height: 160px;
 }
 
-#motive:before {
-  content: "";
-  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+73,bfe79e+73 */
-background: #ffffff; /* Old browsers */
-background: -moz-linear-gradient(left, #ffffff 70%, #bfe79e 70%); /* FF3.6-15 */
-background: -webkit-linear-gradient(left, #ffffff 70%,#bfe79e 70%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to right, #ffffff 70%,#bfe79e 70%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#bfe79e',GradientType=1 ); /* IE6-9 */
-  position: absolute;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  right: 0;
+#motive .motive-logo:hover img {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
 }
 
-#motive h2 {
-  font-size: 36px;
-  font-weight: bold;
-  margin-bottom: 10px;
-  color: #171717;
+#motive img {
+  transition: all 0.4s ease-in-out;
 }
-
-#motive h3 {
-  font-size: 18px;
-  font-weight: bold;
-  text-transform: uppercase;
-  margin-bottom: 10px;
-  color: #171717;
-}
-
-#motive p {
-  font-size: 14px;
-  margin-bottom: 20px;
-  color: #171717;
-}
-#motive .about-btn {
-  font-family: "Raleway", sans-serif;
-  font-weight: 500;
-  font-size: 14px;
-  letter-spacing: 1px;
-  display: inline-block;
-  padding: 12px 32px;
-  border-radius: 50px;
-  transition: 0.5s;
-  line-height: 1;
-  margin: 10px;
-  color: #171717;
-  -webkit-animation-delay: 0.8s;
-  animation-delay: 0.8s;
-  border: 2px solid #bfe79e;
-}
-
-#motive .about-btn:hover {
-  background: #bfe79e;
-  color: #000;
-}
-
-
 
 
 /*--------------------------------------------------------------
 # Share With Us Section
 --------------------------------------------------------------*/
-#shareW {
-  background: url("/img/shareW-bg.jpg");
-  background-size: cover;
-  overflow: hidden;
-  position: relative;
-  color: #fff;
-  padding: 60px 0 40px 0;
-  text-align: center;
-}
-
-#shareW:before {
-  content: "";
-  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f9c359+28,ffffff+28 */
-background: #f9c359; /* Old browsers */
-background: -moz-linear-gradient(left, #f9c359 30%, #ffffff 30%); /* FF3.6-15 */
-background: -webkit-linear-gradient(left, #f9c359 30%,#ffffff 30%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to right, #f9c359 30%,#ffffff 30%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9c359', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 */
-  position: absolute;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  right: 0;
-}
-#shareW .row .col-lg-9{
-
-}
-#shareW h2 {
-  font-size: 36px;
-  font-weight: bold;
-  margin-bottom: 10px;
-  color: #171717;
-}
-
-#shareW h3 {
-  font-size: 18px;
-  font-weight: bold;
-  text-align: center;
-  text-transform: uppercase;
-  margin-bottom: 10px;
-  color: #171717;
-}
-
-#shareW p {
-  font-size: 14px;
-  margin-bottom: 20px;
-  color: #171717;
-}
-#shareW .about-btn {
-  font-family: "Raleway", sans-serif;
-  font-weight: 500;
-  font-size: 14px;
-  letter-spacing: 1px;
-  display: inline-block;
-  padding: 12px 32px;
-  border-radius: 50px;
-  transition: 0.5s;
-  line-height: 1;
-  margin: 10px;
-  color: #171717;
-  -webkit-animation-delay: 0.8s;
-  animation-delay: 0.8s;
-  border: 2px solid #f9c359;
-}
-
-#shareW .about-btn:hover {
-  background: #f9c359;
-  color: #000;
-}
 
 
 /*--------------------------------------------------------------
@@ -957,33 +887,240 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9c359', end
 /*--------------------------------------------------------------
 # Subscribe Section
 --------------------------------------------------------------*/
+#subscribe {
+  padding: 60px;
+  background: url(/img/subscribe-bg.jpg) center center no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  position: relative;
+}
 
+#subscribe:before {
+  content: "";
+  background: rgba(6, 12, 34, 0.6);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#subscribe .section-header h2,
+#subscribe p {
+  color: #fff;
+}
+
+#subscribe input {
+  background: #fff;
+  color: #060c22;
+  border: 0;
+  outline: none;
+  margin: 0;
+  padding: 9px 20px;
+  border-radius: 50px;
+  font-size: 14px;
+}
+
+#subscribe button {
+  border: 0;
+  padding: 9px 25px;
+  cursor: pointer;
+  background: #f82249;
+  color: #fff;
+  transition: all 0.3s ease;
+  outline: none;
+  font-size: 14px;
+  border-radius: 50px;
+}
+
+#subscribe button:hover {
+  background: #e0072f;
+}
 
 
 /*--------------------------------------------------------------
 # Buy Tickets Section
 --------------------------------------------------------------*/
+#shareW {
+  padding: 60px 0;
+}
 
+.kotak .btn {
+  font-size: 15px;
+  border-radius: 50px;
+  padding: 10px 40px;
+  transition: all 0.2s;
+  background-color: #f82249;
+  border: 0;
+  color: #fff;
+}
+
+.kotak .btn:hover {
+  background-color: #e0072f;
+}
+
+.kotak #buy-ticket-modal .btn {
+  font-size: 15px;
+  border-radius: 50px;
+  padding: 10px 40px;
+  transition: all 0.2s;
+  background-color: #f82249;
+  border: 0;
+  color: #fff;
+}
+
+.kotak #buy-ticket-modal .btn:hover {
+  background-color: #e0072f;
+}
+
+.kotak .tulis{
+  padding: 0 0 0 20px;
+  margin: 0 0 0 0;
+
+}
+.kotak{
+  background: #fff;
+  padding: 15px 0 20px 0;
+  margin:0 2px;
+  border: none;
+  border-radius: 5px;
+  transition: all  0.3s ease-in-out;
+  box-shadow: 0 10px 25px 0 rgba(6, 12, 34, 0.1);
+}
+.kotak:hover {
+  box-shadow: 0 10px 35px 0 rgba(6, 12, 34, 0.2);
+}
+.drp_share{
+  padding:10px 0 0 0;
+  margin: 0 0 0 0;
+}
+.btn_share{
+  background: #fff;
+  border: 0px;
+}
+.satu{
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+
+}
 
 
 /*--------------------------------------------------------------
 # Contact Section
 --------------------------------------------------------------*/
+#contact {
+  padding: 60px 0;
+}
 
+#contact .contact-info {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#contact .contact-info i {
+  font-size: 48px;
+  display: inline-block;
+  margin-bottom: 10px;
+  color: #f82249;
+}
+
+#contact .contact-info address,
+#contact .contact-info p {
+  margin-bottom: 0;
+  color: #100122;
+}
+
+#contact .contact-info h3 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #100122;
+}
+
+#contact .contact-info a {
+  color: #4869df;
+}
+
+#contact .contact-info a:hover {
+  color: #f82249;
+}
+
+#contact .contact-address,
+#contact .contact-phone,
+#contact .contact-email {
+  margin-bottom: 20px;
+}
+
+#contact .form #sendmessage {
+  color: #f82249;
+  border: 1px solid #f82249;
+  display: none;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+#contact .form #errormessage {
+  color: red;
+  display: none;
+  border: 1px solid red;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+#contact .form #sendmessage.show,
+#contact .form #errormessage.show,
+#contact .form .show {
+  display: block;
+}
+
+#contact .form .validation {
+  color: red;
+  display: none;
+  margin: 0 0 20px;
+  font-weight: 400;
+  font-size: 13px;
+}
+
+#contact .form input,
+#contact .form textarea {
+  padding: 10px 14px;
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 15px;
+}
+
+#contact .form button[type="submit"] {
+  background: #f82249;
+  border: 0;
+  padding: 10px 40px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+#contact .form button[type="submit"]:hover {
+  background: #e0072f;
+}
 
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
 
 #footer {
-  background: #040404;
+  background: #100122;
   padding: 0 0 25px 0;
   color: #eee;
   font-size: 14px;
 }
 
 #footer .footer-top {
-  background: #171717;
+  background: #1a0730;
   padding: 60px 0 30px 0;
 }
 
@@ -1030,7 +1167,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9c359', end
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #f9c359;
+  background: #f82249;
   color: #fff;
 }
 
@@ -1041,7 +1178,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9c359', end
   text-transform: uppercase;
   position: relative;
   padding-bottom: 12px;
-  border-bottom: 2px solid #f9c359;
+  border-bottom: 2px solid #f82249;
 }
 
 #footer .footer-top .footer-links {
@@ -1056,7 +1193,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9c359', end
 
 #footer .footer-top .footer-links ul i {
   padding-right: 5px;
-  color: #f9c359;
+  color: #f82249;
   font-size: 18px;
 }
 
@@ -1074,7 +1211,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9c359', end
 }
 
 #footer .footer-top .footer-links ul a:hover {
-  color: #f9c359;
+  color: #f82249;
 }
 
 #footer .footer-top .footer-contact {
@@ -1096,7 +1233,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9c359', end
 }
 
 #footer .footer-top .footer-newsletter input[type="submit"] {
-  background: #f9c359;
+  background: #f82249;
   border: 0;
   width: 35%;
   padding: 6px 0;

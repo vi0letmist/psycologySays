@@ -9,4 +9,8 @@ class Consul extends Model
     protected $table = 'consul';
     public $primaryKey = 'id_c';
     public $timestamps = true;
+
+    public function users() {
+    	return $this->belongsTo('App\User');
+    }
 }

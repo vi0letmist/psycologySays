@@ -22,15 +22,17 @@ class ShareController extends Controller
     {
         $this->validate($request,  [
             'blog' => 'required',
-            'isi' => 'required'
+            'isi' => 'required',
+            'gambar' => 'required',
         ]);
 
         $shr = new Share;
-        $shr->quest = $request->input('blog');
-        $shr->desc = $request->input('isi');
+        $shr->blog = $request->input('blog');
+        $shr->gbr = $request->input('gambar');
+        $shr->isi = $request->input('isi');
         $shr->save();
 
-        return redirect('/share')->with('success', 'Quest submitted');
+        return redirect('/share')->with('success', 'Blog submitted');
     }
 
     public function show($id_s)
@@ -42,29 +44,31 @@ class ShareController extends Controller
     public function edit($id_s)
     {
         $shr = Share::find($id_s);
-        return view('share.edit')->with('Share', $shr);   
+        return view('share.edit')->with('Share', $shr);
     }
 
     public function update(Request $request, $id_s)
     {
         $this->validate($request,  [
             'blog' => 'required',
-            'isi' => 'required'
+            'isi' => 'required',
+            'gambar' => 'required',
         ]);
 
         $shr = Share::find($id_s);
-        $shr->quest = $request->input('blog');
-        $shr->desc = $request->input('isi');
+        $shr->blog = $request->input('blog');
+        $shr->gbr = $request->input('gambar');
+        $shr->isi = $request->input('isi');
         $shr->save();
 
-        return redirect('/share')->with('success', 'Quest updated');
+        return redirect('/share')->with('success', 'Blog updated');
     }
 
     public function destroy($id_s)
     {
         $shr =  Share::find($id_s);
-        $shr->delete(); 
+        $shr->delete();
 
-        return redirect('/share')->with('success', 'Quest removed');
+        return redirect('/share')->with('success', 'Blog removed');
     }
 }

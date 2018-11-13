@@ -1,12 +1,12 @@
-@extends('layout.mlayout')
+@extends('layouts.layout')
 
 @section('content')
-
     <div class="postingan wow fadeInUp">
         <div class="row">
             <div class="col-sm-5">
                 <div class="speaker">
-                    <img src="https://img.youtube.com/vi/{{$Motive->url}}/0.jpg" alt="" class="img-fluid">
+                        <a href="https://www.youtube.com/watch?v={{$Motive->url}}" class="venobox play-btn mb-4" data-vbtype="video"
+                        data-autoplay="false"></a>
                 </div>
             </div>
             <div class="col-sm-7">
@@ -19,7 +19,7 @@
                 {{Form::hidden('_method','DELETE')}}
                 {{Form::submit('Delete', ['class' => 'btn btn-danger'])}}
                 {!! Form::close() !!}
-            </div> 
+            </div>
         </div>
     </div>
 

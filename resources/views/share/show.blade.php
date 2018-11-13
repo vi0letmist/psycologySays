@@ -1,16 +1,15 @@
-@extends('layout.mlayout')
+@extends('layouts.layout')
 
 @section('content')
-    <h3>{{$Motive->judul}}</h3>
-    <small>Submitted on {{$Motive->created_at}}</small>
-    <div>
-        <iframe width="420" height="315"
-            src="{{$Motive->url}}">
-        </iframe>
-    </div>
-    <a href="/motivation/{{$Motive->id_m}}/edit" class="btn btn-primary">Edit</a>
+    <h3>{{$Share->blog}}</h3>
+    <h4>By {{auth()->user()->id}}</h4>
+    <img src="{{$Share->gambar}}" alt="" class="img-fluid">
+    <p>{{$Share->isi}}</p>
 
-    {!! Form::open(['action' => ['MotiveController@destroy', $Motive->id_m], 'method' => 'POST', 'class' => 'btn pull-right']) !!}
+    <small>Submitted on {{$Share->created_at}}</small>
+    <a href="/share/{{$Share->id_s}}/edit" class="btn btn-primary">Edit</a>
+
+    {!! Form::open(['action' => ['ShareController@destroy', $Share->id_s], 'method' => 'POST', 'class' => 'btn pull-right']) !!}
         {{Form::hidden('_method','DELETE')}}
         {{Form::submit('Delete', ['class' => 'btn btn-danger'])}}
     {!! Form::close() !!}

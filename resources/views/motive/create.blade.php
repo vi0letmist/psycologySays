@@ -1,7 +1,7 @@
-@extends('layout.mlayout')
+@extends('layouts.layout')
 
 @section('content')
-    <h3>Add Video</h3>    
+    <h3>Add Video</h3>
     {!! Form::open(['action' => 'MotiveController@store', 'method' => 'POST']) !!}
         <div class="form-group">
             {{Form::label('judul','Judul')}}

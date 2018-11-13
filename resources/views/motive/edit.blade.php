@@ -1,4 +1,4 @@
-@extends('layout.mlayout')
+@extends('layouts.layout')
 
 @section('content')
     <h3>Edit Video</h3>
@@ -19,5 +19,5 @@
                 {!! Form::close() !!}
             </div>
         </div>
-    </div>    
+    </div>
 @endsection

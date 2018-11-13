@@ -57,7 +57,8 @@
           <li><a href="#consultation">Consultation</a></li>
           <li class="menu-active"><a href="#motive">The Motivate</a></li>
           <li><a href="#shareW">Share With Us</a></li>
-          <li class="buy-tickets"><a href="#buy-tickets">Login</a></li>
+          <li class="buy-tickets"><a href="/login">Login</a></li>
+          <li class="buy-tickets"><a href="/register">Register</a></li>
         </ul>
       </nav><!-- #nav-menu-container -->
     </div>
@@ -72,7 +73,7 @@
         <div class="row">
           <div id="intro1" class="col-sm-6" style="background-color:lavenderblush;">
             <div class="speaker">
-              
+
               <a href="" class="a_gam"> <img src="img/motive/8.jpg" alt="" class="img-fluid"> </a>
               <div class="details">
                 <h3>Hubert Hirthe</h3>
@@ -84,7 +85,7 @@
                   <a href=""><i class="fa fa-linkedin"></i></a>
                 </div>
               </div>
-              
+
             </div>
           </div>
             <div class="col-sm-6" style="background-color:lavender;">
@@ -102,7 +103,7 @@
                         <a href=""><i class="fa fa-linkedin"></i></a>
                       </div>
                     </div>
-              
+
                   </div>
                 </div>
                 <div id="intro2" class="col-sm-6" style="background-color:lightcyan;">
@@ -118,7 +119,7 @@
                         <a href=""><i class="fa fa-linkedin"></i></a>
                       </div>
                     </div>
-              
+
                   </div>
                 </div>
                 <div id="intro2" class="col-sm-6" style="background-color:lightcyan;">
@@ -134,7 +135,7 @@
                         <a href=""><i class="fa fa-linkedin"></i></a>
                       </div>
                     </div>
-              
+
                   </div>
                 </div>
                 <div id="intro2" class="col-sm-6" style="background-color:lightcyan;">
@@ -150,19 +151,19 @@
                         <a href=""><i class="fa fa-linkedin"></i></a>
                       </div>
                     </div>
-              
+
                   </div>
                 </div>
 
               </div>
             </div>
-    
-        </div>
-
 
         </div>
 
-      
+
+        </div>
+
+
 
     </section>
 
@@ -174,7 +175,7 @@
     <section id="consul_head">
       <div class="container wow fadeInUp">
         <div class="row">
-           
+
         </div>
       </div>
     </section>
@@ -201,8 +202,8 @@
                     <div class="col-sm-7">
                       <h4>aaaaaaaaa</h4>
                       <p>aaaaaaaa</p>
-                    </div> 
-                    
+                    </div>
+
                     </div>
                     </div>
                     <!-- ======================= -->
@@ -212,7 +213,7 @@
                     @component('components.post_mot',['image'=>'/img/motive/6.jpg','title' => 'meeeeeeeeee laaah','capt' => 'meeeeeeeeee laaah'])
                     @endcomponent
 
-                    
+
 
                 </div>
             </div>
@@ -247,49 +248,49 @@
     <!--==========================
       The Motivate Section
     ============================-->
-    
-      
+
+
     <!--==========================
       Share With Us Section
     ============================-->
-    
+
     <!--==========================
       Hotels Section
     ============================-->
-    
+
 
     <!--==========================
       Gallery Section
     ============================-->
-    
+
 
     <!--==========================
       Sponsors Section
     ============================-->
-    
+
 
     <!--==========================
       F.A.Q Section
     ============================-->
-    
+
 
     <!--==========================
       Subscribe Section
     ============================-->
-    
+
 
     <!--==========================
       Buy Ticket Section
     ============================-->
-    
+
 
       <!-- Modal Order Form -->
-      
+
 
     <!--==========================
       Contact Section
     ============================-->
-    
+
 
   </main>
 

@@ -57,7 +57,8 @@
           <li class="menu-active"><a href="#consultation">Consultation</a></li>
           <li><a href="#motive">The Motivate</a></li>
           <li><a href="#shareW">Share With Us</a></li>
-          <li class="buy-tickets"><a href="#buy-tickets">Login</a></li>
+          <li class="buy-tickets"><a href="/login">Login</a></li>
+          <li class="buy-tickets"><a href="/register">Register</a></li>
         </ul>
       </nav><!-- #nav-menu-container -->
     </div>
@@ -70,7 +71,7 @@
     <div class="intro-container wow fadeIn">
       <div class="row">
           <div class="col-lg-4">
-            
+
           </div>
           <div class="col-lg-8">
             <h3>About the Menu</h3>
@@ -94,7 +95,7 @@
         <div class="row">
           <div class="col-lg-12">
             <h2>CONSULTATION</h2>
-          </div> <!--         
+          </div> <!--
           <div class="col-lg-2">
 
             <a href="#shareW" class="about-btn scrollto">Make Question</a>
@@ -103,33 +104,33 @@
             <a href="#shareW" class="about-btn scrollto">Find Question</a>
           </div>-->>
           <div class="col-lg-8">
-          
+
               <ul id="faq-list">
 
                 <li>
                   <a data-toggle="collapse" class="collapsed about-btn" href="#faq1">Make Question
                     </a><br>
-                  <div id="faq1" class="collapse" data-parent="#faq-list">
-                  <div class="form">
-                  <div id="sendmessage">Your message has been sent. Thank you!</div>
-                  <div id="errormessage"></div>
-                  {!! Form::open(['class' => 'contactForm', 'action' => 'ConsulController@store', 'method' => 'POST']) !!}
-                      <div class="form-group">
-                          {{Form::text('judul', '', ['class' =>  'form-control','placeholder' => 'Topic Title'])}}
-                      </div>
-                      <div class="form-group">
-                          {{Form::textarea('isi', '', ['class' =>  'form-control','placeholder' => 'Message'])}}
-                      </div>
-                      {{Form::submit('Send Question', ['class' => 'btn btn-primary'])}}
-                  {!! Form::close() !!}
-        </div>
-      </div>
-    </li>
-  </ul>
+                    <div id="faq1" class="collapse" data-parent="#faq-list">
+                        <div class="form">
+                        <div id="sendmessage">Your message has been sent. Thank you!</div>
+                        <div id="errormessage"></div>
+                        {!! Form::open(['class' => 'contactForm', 'action' => 'ConsulController@store', 'method' => 'POST']) !!}
+                            <div class="form-group">
+                                {{Form::text('judul', '', ['class' =>  'form-control','placeholder' => 'Topic Title'])}}
+                            </div>
+                            <div class="form-group">
+                                {{Form::textarea('isi', '', ['class' =>  'form-control','placeholder' => 'Message'])}}
+                            </div>
+                                {{Form::submit('Send Question', ['class' => 'btn btn-primary'])}}
+                        {!! Form::close() !!}
+                        </div>
+                    </div>
+                </li>
+            </ul>
 
           </div>
           <div class="col-lg-4">
-            
+
           </div>
         </div>
       </div>
@@ -152,7 +153,7 @@
                     @component('components.post',['title'=>'mantap mantap','who' => 'meeeeeeeeee laaah','caption' => 'meeeeeeeeee laaah'])
                     @endcomponent
 
-                    
+
 
                 </div>
             </div>
@@ -183,49 +184,49 @@
     <!--==========================
       The Motivate Section
     ============================-->
-    
-      
+
+
     <!--==========================
       Share With Us Section
     ============================-->
-    
+
     <!--==========================
       Hotels Section
     ============================-->
-    
+
 
     <!--==========================
       Gallery Section
     ============================-->
-    
+
 
     <!--==========================
       Sponsors Section
     ============================-->
-    
+
 
     <!--==========================
       F.A.Q Section
     ============================-->
-    
+
 
     <!--==========================
       Subscribe Section
     ============================-->
-    
+
 
     <!--==========================
       Buy Ticket Section
     ============================-->
-    
+
 
       <!-- Modal Order Form -->
-      
+
 
     <!--==========================
       Contact Section
     ============================-->
-    
+
 
   </main>
 
