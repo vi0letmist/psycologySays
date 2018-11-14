@@ -46,7 +46,7 @@
       <div id="logo" class="pull-left">
         <!-- Uncomment below if you prefer to use a text logo -->
         <!-- <h1><a href="#main">C<span>o</span>nf</a></h1>-->
-        <a href="#intro" class="scrollto"><img src="img/logo.png" alt="" title=""></a>
+        <a href="#intro" class="scrollto">{{-- <img src="img/logo.png" alt="" title=""> --}}</a>
       </div>
 
       <nav id="nav-menu-container">
@@ -68,7 +68,7 @@
   <section id="intro">
     <div class="intro-container wow fadeIn">
       <h1 class="mb-4 pb-0"><span>Psycology</span>Says</h1>
-      <p class="mb-4 pb-0">hiya hiya hiya</p>
+      <p class="mb-4 pb-0">Solusi untuk berbagai permasalahan dalam pikiran anda</p>
       <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="venobox play-btn mb-4" data-vbtype="video"
         data-autoplay="true"></a>
       <a href="#about" class="about-btn scrollto">About The Web</a>
@@ -85,17 +85,17 @@
         <div class="row">
           <div class="col-lg-6">
             <h2>About The Web</h2>
-            <p>Sed nam ut dolor qui repellendus iusto odit. Possimus inventore eveniet accusamus error amet eius aut
-              accusantium et. Non odit consequatur repudiandae sequi ea odio molestiae. Enim possimus sunt inventore in
-              est ut optio sequi unde.</p>
+            <p>Web ini dibuat sebagai penghubung antara Psikiater dan Calon Psikiater dengan Pasien maupun calon pasiennya.
+                Sehingga dapat memudahkan pengguna untuk mempermudah konsultasi tanpa terhalang oleh jarak dan terpisah oleh waktu.
+            </p>
           </div>
           <div class="col-lg-3">
             <h3>Where</h3>
-            <p>Downtown Conference Center, New York</p>
+            <p>Daerah Istimewa Yogyakara, Indonesia</p>
           </div>
           <div class="col-lg-3">
             <h3>When</h3>
-            <p>Monday to Wednesday<br>10-12 December</p>
+            <p>Senin - Jumat<br>10.00-22.00 WIB</p>
           </div>
         </div>
       </div>
@@ -108,7 +108,7 @@
       <div class="container">
         <div class="section-header">
           <h2>Consultation</h2>
-          <p>Here are some of our Doctor</p>
+          <p>Berikut Beberapa Dokter kami</p>
         </div>
 
         <div class="row">
@@ -215,7 +215,7 @@
       <div class="container">
         <div class="section-header">
           <h2>The Motivate</h2>
-          <p>lorem ipsum sit dolor amet</p>
+          <p>Berisi video motivasi untuk memotivasi diri</p>
         </div>
 
         <div class="row no-gutters motive-wrap clearfix">
@@ -307,7 +307,7 @@
       <div class="container wow fadeInUp">
         <div class="section-header">
           <h2>Newsletter</h2>
-          <p>Rerum numquam illum recusandae quia mollitia consequatur.</p>
+          <p>Subscribe untuk menerima berita dan saran-saran terbaru dari kami.</p>
         </div>
 
         <form method="POST" action="#">
@@ -332,7 +332,7 @@
 
         <div class="section-header">
           <h2>SHARE WITH US</h2>
-          <p>Velit consequatur consequatur inventore iste fugit unde omnis eum aut.</p>
+          <p>Bagikan pengalaman anda bersama dengan kami.</p>
         </div>
 
         <div class="row">
@@ -345,7 +345,7 @@
                       </div>
                         <div class="col-lg-10">
                           <div class="tulis">
-                          <h4>futurehuman1</h4>
+                          <h4>Joko</h4>
                           </div>
                         </div>
                     <div class="col-lg-12"></div>
@@ -356,7 +356,7 @@
                     </div>
                       <div class="col-lg-12">
 
-                        <h3>Lorem ipsum dolor sit amet</h3>
+                        <h3>Sakit tapi terdiagnosa sehat</h3>
                         <hr>
                         <div class="text-center">
                           <a href="/share" class="btn">See More</a>
@@ -374,7 +374,7 @@
                       </div>
                         <div class="col-lg-10">
                           <div class="tulis">
-                          <h4>futurehuman1</h4>
+                          <h4>Jetri</h4>
                           </div>
                         </div>
                     <div class="col-lg-12"></div>
@@ -385,7 +385,7 @@
                     </div>
                       <div class="col-lg-12">
 
-                        <h3>Lorem ipsum dolor sit amet</h3>
+                        <h3>Pusing kepala yang tak kunjung sembuh</h3>
                         <hr>
                         <div class="text-center">
                           <a href="/share" class="btn">See More</a>
@@ -404,7 +404,7 @@
                       </div>
                         <div class="col-lg-10">
                           <div class="tulis">
-                          <h4>futurehuman1</h4>
+                          <h4>Ciel</h4>
                           </div>
                         </div>
                     <div class="col-lg-12"></div>
@@ -415,7 +415,7 @@
                     </div>
                       <div class="col-lg-12">
 
-                        <h3>Lorem ipsum dolor sit amet</h3>
+                        <h3>Severe headache because of stress</h3>
                         <hr>
                         <div class="text-center">
                           <a href="/share" class="btn">See More</a>
@@ -441,7 +441,7 @@
 
         <div class="section-header">
           <h2>Contact Us</h2>
-          <p>Nihil officia ut sint molestiae tenetur.</p>
+          <p>Hubungi kami disini.</p>
         </div>
 
         <div class="row contact-info">
@@ -450,7 +450,7 @@
             <div class="contact-address">
               <i class="ion-ios-location-outline"></i>
               <h3>Address</h3>
-              <address>A108 Adam Street, NY 535022, USA</address>
+              <address>Daerah Istimewa Yogyakara, Indonesia</address>
             </div>
           </div>
 
@@ -458,7 +458,7 @@
             <div class="contact-phone">
               <i class="ion-ios-telephone-outline"></i>
               <h3>Phone Number</h3>
-              <p><a href="tel:+155895548855">+1 5589 55488 55</a></p>
+              <p><a href="tel:+6289633187512">+62 896 3318 7512</a></p>
             </div>
           </div>
 
@@ -466,7 +466,7 @@
             <div class="contact-email">
               <i class="ion-ios-email-outline"></i>
               <h3>Email</h3>
-              <p><a href="mailto:info@example.com">info@example.com</a></p>
+              <p><a href="mailto:psycologySays@gmail.com">psycologySays@gmail.com</a></p>
             </div>
           </div>
 
@@ -513,8 +513,9 @@
         <div class="row">
 
           <div class="col-lg-3 col-md-6 footer-info">
-            <img src="img/logo.png" alt="TheEvenet">
-            <p>In alias aperiam. Placeat tempore facere. Officiis voluptate ipsam vel eveniet est dolor et totam porro. Perspiciatis ad omnis fugit molestiae recusandae possimus. Aut consectetur id quis. In inventore consequatur ad voluptate cupiditate debitis accusamus repellat cumque.</p>
+            {{-- <img src="img/logo.png" alt="TheEvenet"> --}}
+            <p>Web ini dibuat sebagai penghubung antara Psikiater dan Calon Psikiater dengan Pasien maupun calon pasiennya.
+                Sehingga dapat memudahkan pengguna untuk mempermudah konsultasi tanpa terhalang oleh jarak dan terpisah oleh waktu.</p>
           </div>
 
           <div class="col-lg-3 col-md-6 footer-links">
@@ -542,11 +543,11 @@
           <div class="col-lg-3 col-md-6 footer-contact">
             <h4>Contact Us</h4>
             <p>
-              A108 Adam Street <br>
-              New York, NY 535022<br>
-              United States <br>
-              <strong>Phone:</strong> +1 5589 55488 55<br>
-              <strong>Email:</strong> info@example.com<br>
+              Yogyakarta<br>
+              Daerah Istimewa Yogyakarta<br>
+              Indonesia <br>
+              <strong>Phone:</strong> +62 896 3318 7512<br>
+              <strong>Email:</strong> psycologySays@gmail.com<br>
             </p>
 
             <div class="social-links">
@@ -565,7 +566,7 @@
 
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong>TheEvent</strong>. All Rights Reserved
+        &copy; Copyright <strong>psycologySays</strong>. All Rights Reserved
       </div>
       <div class="credits">
         <!--
