@@ -30,13 +30,13 @@
         <div class="row">
           <div id="intro1" class="col-sm-6" style="background-color:lavenderblush;">
             <div class="speaker">
-              
+
               <a href="" class="a_gam"> <img src="img/motive/8.jpg" alt="" class="img-fluid"> </a>
               <div class="details">
                 <h3><a href="">Hubert Hirthe</a></h3>
                 <p>Consequuntur odio aut</p>
               </div>
-              
+
             </div>
           </div>
             <div class="col-sm-6" style="background-color:lavender;">
@@ -48,7 +48,7 @@
                       <h3><a href="">Hubert Hirthe</a></h3>
                       <p>Consequuntur odio aut</p>
                     </div>
-              
+
                   </div>
                 </div>
                 <div id="intro2" class="col-sm-6" style="background-color:lightcyan;">
@@ -58,7 +58,7 @@
                       <h3><a href="">Hubert Hirthe</a></h3>
                       <p>Consequuntur odio aut</p>
                     </div>
-              
+
                   </div>
                 </div>
                 <div id="intro2" class="col-sm-6" style="background-color:lightcyan;">
@@ -68,7 +68,7 @@
                       <h3><a href="">Hubert Hirthe</a></h3>
                       <p>Consequuntur odio aut</p>
                     </div>
-              
+
                   </div>
                 </div>
                 <div id="intro2" class="col-sm-6" style="background-color:lightcyan;">
@@ -78,19 +78,19 @@
                       <h3><a href="">Hubert Hirthe</a></h3>
                       <p>Consequuntur odio aut</p>
                     </div>
-              
+
                   </div>
                 </div>
 
               </div>
             </div>
-    
-        </div>
-
 
         </div>
 
-      
+
+        </div>
+
+
 
     </section>
 
@@ -102,7 +102,7 @@
     <section id="consul_head">
       <div class="container wow fadeInUp">
         <div class="row">
-           
+
         </div>
       </div>
     </section>
@@ -115,20 +115,20 @@
              <div class="col-lg-8">
                 <div class="blog_left_sidebar">
                   <!-- ======================= -->
-                  <div class="postingan wow fadeInUp">
+                <div class="postingan wow fadeInUp">
                    <div class="row">
                     <div class="col-sm-5">
-                      <div class="speaker">
-                    <img src="img/motive/3.jpg" alt="" class="img-fluid">
-                  </div>
-                </div>
+                        <div class="speaker">
+                            <img src="img/motive/3.jpg" alt="" class="img-fluid">
+                        </div>
+                    </div>
                     <div class="col-sm-7">
                       <h4>aaaaaaaaa</h4>
                       <p>aaaaaaaa</p>
-                    </div> 
-                    
                     </div>
+
                     </div>
+                </div>
                     <!-- ======================= -->
                     @component('components.post_mot',['image'=>'/img/motive/2.jpg','title' => 'meeeeeeeeee laaah','capt' => 'meeeeeeeeee laaah'])
                     @endcomponent
@@ -136,7 +136,7 @@
                     @component('components.post_mot',['image'=>'/img/motive/6.jpg','title' => 'meeeeeeeeee laaah','capt' => 'meeeeeeeeee laaah'])
                     @endcomponent
 
-                    
+
 
                 </div>
             </div>
@@ -171,49 +171,49 @@
     <!--==========================
       The Motivate Section
     ============================-->
-    
-      
+
+
     <!--==========================
       Share With Us Section
     ============================-->
-    
+
     <!--==========================
       Hotels Section
     ============================-->
-    
+
 
     <!--==========================
       Gallery Section
     ============================-->
-    
+
 
     <!--==========================
       Sponsors Section
     ============================-->
-    
+
 
     <!--==========================
       F.A.Q Section
     ============================-->
-    
+
 
     <!--==========================
       Subscribe Section
     ============================-->
-    
+
 
     <!--==========================
       Buy Ticket Section
     ============================-->
-    
+
 
       <!-- Modal Order Form -->
-      
+
 
     <!--==========================
       Contact Section
     ============================-->
-    
+
 
   </main>
 

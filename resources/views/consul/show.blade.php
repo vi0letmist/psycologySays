@@ -1,11 +1,11 @@
-@extends('consul.consultation')
+@extends('layouts.layout')
 
 @section('content')
 <div class="postingan wow fadeInUp">
     <div class="row">
        <div class="col-lg-1">
          <img src="/img/profile.png">
-       </div>          
+       </div>
      <div class="col-lg-7">
         <h3>{{$Consul->judul}}</h3>
        <p>{{$Users->id}}</p>
