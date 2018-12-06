@@ -30,6 +30,7 @@ class ShareController extends Controller
         $shr->blog = $request->input('blog');
         $shr->gbr = $request->input('gambar');
         $shr->isi = $request->input('isi');
+        $shr->user_id = auth()->user()->id;
         $shr->save();
 
         return redirect('/share')->with('success', 'Blog submitted');
@@ -59,6 +60,7 @@ class ShareController extends Controller
         $shr->blog = $request->input('blog');
         $shr->gbr = $request->input('gambar');
         $shr->isi = $request->input('isi');
+        $shr->user_id = auth()->user()->id;
         $shr->save();
 
         return redirect('/share')->with('success', 'Blog updated');

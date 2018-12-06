@@ -12,11 +12,12 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('home');
 });
 Route::get('home', function () {
     return view('home');
 });
+Route::get('dashboard', 'DashboardController@index');
 /* Route::get('login', function () {
     return view('login');
 });
@@ -27,6 +28,7 @@ Route::get('register', function () {
 Route::resource('shareW','ShareController');
 Route::resource('consultation','ConsulController');
 Route::resource('motive','MotiveController');
+Route::resource('dashboard','DashboardController');
 
 Auth::routes();
 

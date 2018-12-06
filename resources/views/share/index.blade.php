@@ -18,7 +18,35 @@
           <li><a href="/consultation">Consultation</a></li>
           <li><a href="/motive">The Motivate</a></li>
           <li class="menu-active"><a href="#shareW">Share With Us</a></li>
-          <li class="buy-tickets"><a href="/login">Login</a></li>
+          {{-- <li class="buy-tickets"><a href="/login">Login</a></li> --}}
+          @guest
+            <li class="buy-tickets">
+              <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
+            </li>
+            <li class="buy-tickets">
+              @if (Route::has('register'))
+                <a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
+              @endif
+            </li>
+            @else
+            <li class="nav-item dropdown">
+            <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
+              {{ Auth::user()->name }} <span class="caret"></span>
+            </a>
+
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="{{ route('logout') }}"
+                onclick="event.preventDefault();
+                document.getElementById('logout-form').submit();">
+                 {{ __('Logout') }}
+              </a>
+
+              <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+              @csrf
+              </form>
+            </div>
+            </li>
+          @endguest          
         </ul>
       </nav><!-- #nav-menu-container -->
     </div>
@@ -86,10 +114,10 @@
                     {{Form::submit('Send Question', ['class' => 'btn btn-primary'])}}
                     {{-- <div class="text-center"><button type="submit">Send Question</button></div> --}}
             {!! Form::close() !!}
-        </div>
-      </div>
-    </li>
-  </ul>
+                </div>
+              </div>
+              </li>
+            </ul>
 
           </div>
           <div class="col-lg-4">
