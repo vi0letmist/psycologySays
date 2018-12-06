@@ -17,7 +17,12 @@ Route::get('/', function () {
 Route::get('home', function () {
     return view('home');
 });
-Route::get('dashboard', 'DashboardController@index');
+
+Route::get('admin', function () {
+    return view('admin');
+});
+
+Route::get('admin', 'DashboardController@index');
 /* Route::get('login', function () {
     return view('login');
 });
@@ -25,7 +30,7 @@ Route::get('register', function () {
     return view('register');
 }); */
 
-Route::resource('shareW','ShareController');
+Route::resource('share','ShareController');
 Route::resource('consultation','ConsulController');
 Route::resource('motive','MotiveController');
 Route::resource('dashboard','DashboardController');

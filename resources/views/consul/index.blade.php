@@ -18,7 +18,7 @@
           <li><a href="/about">About</a></li>
           <li class="menu-active"><a href="#consultation">Consultation</a></li>
           <li><a href="/motive">The Motivate</a></li>
-          <li><a href="/shareW">Share With Us</a></li>
+          <li><a href="/share">Share With Us</a></li>
           {{-- <li class="buy-tickets"><a href="#buy-tickets">Login</a></li> --}}
           @guest
             <li class="buy-tickets">
@@ -104,7 +104,11 @@
                     {{Form::textarea('isi', '', ['class' =>  'form-control','placeholder' => 'Message', 'data-rule'  => 'required', 'data-msg' => 'Please enter at least 8 chars of subject', 'rows'=>'5'])}}
                     <div class="validation"></div>
                 </div>
+                  @guest
+                    <a class="btn btn-primary" href="{{ route('login') }}">{{ __('Login') }}</a>
+                    @else
                     {{Form::submit('Send Question', ['class' => 'btn btn-primary'])}}
+                  @endguest
                     {{-- <div class="text-center"><button type="submit">Send Question</button></div> --}}
             {!! Form::close() !!}
           {{-- <form action="" method="post" role="form" class="contactForm">
@@ -149,7 +153,7 @@
                          </div>
                        <div class="col-lg-7">
                           <h3><a href="/consultation/{{$csl->id_c}}">{{$csl->judul}}</a></h3>
-                          <p>by {{$auth->users->id}}</p>
+                          <p>by {{$csl->user->name}}</p>
                        </div>
                        <div class="col-lg-1"></div>
                        <div class="col-lg-3">

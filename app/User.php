@@ -66,4 +66,8 @@ class User extends Authenticatable
         public function share(){
             return $this->hasMany('App\Share');
         }
+
+        public function consul(){
+            return $this->hasMany('App\Consul');
+        }
 }

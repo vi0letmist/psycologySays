@@ -29,6 +29,7 @@ class ConsulController extends Controller
         $csl = new Consul;
         $csl->judul = $request->input('judul');
         $csl->isi = $request->input('isi');
+        $csl->user_id = auth()->user()->id;
         $csl->save();
 
         return redirect('/consultation')->with('success', 'Quest submitted');
@@ -49,13 +50,14 @@ class ConsulController extends Controller
     public function update(Request $request, $id_c)
     {
         $this->validate($request,  [
-            'quest' => 'required',
-            'desc' => 'required'
+            'judul' => 'required',
+            'isi' => 'required'
         ]);
 
         $csl = Consul::find($id_c);
         $csl->judul = $request->input('judul');
         $csl->isi = $request->input('isi');
+        $csl->user_id = auth()->user()->id;
         $csl->save();
 
         return redirect('/consultation')->with('success', 'Quest updated');

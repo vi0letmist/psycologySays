@@ -1,6 +1,7 @@
 @extends('layouts.layout')
 
 @section('content')
+
     <h3>Edit</h3>
     {!! Form::open(['action' => ['ConsulController@update', $Consul->id_c], 'method' => 'POST']) !!}
         <div class="form-group">

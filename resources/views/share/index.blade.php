@@ -17,7 +17,7 @@
           <li><a href="/about">About</a></li>
           <li><a href="/consultation">Consultation</a></li>
           <li><a href="/motive">The Motivate</a></li>
-          <li class="menu-active"><a href="#shareW">Share With Us</a></li>
+          <li class="menu-active"><a href="#share">Share With Us</a></li>
           {{-- <li class="buy-tickets"><a href="/login">Login</a></li> --}}
           @guest
             <li class="buy-tickets">
@@ -86,36 +86,40 @@
           </div>
           <div class="col-lg-8">
 
-              <ul id="faq-list">
+            <ul id="faq-list">
 
-                <li>
-                  <a data-toggle="collapse" class="collapsed about-btn" href="#faq1">Make Question
-                    </a><br>
-                  <div id="faq1" class="collapse" data-parent="#faq-list">
-            <div class="form">
-            <div id="sendmessage">Your message has been sent. Thank you!</div>
-            <div id="errormessage"></div>
-            {!! Form::open(['class' => 'contactForm', 'action' => 'ConsulController@store', 'method' => 'POST']) !!}
-                <div class="form-group">
-                    <br>
-                    {{Form::text('blog', '', ['class' =>  'form-control','placeholder' => 'Topic Title','data-rule'  => 'minlen:4','data-msg' => 'Please enter at least 8 chars of subject'])}}
-                    <div class="validation"></div>
+              <li>
+                <a data-toggle="collapse" class="collapsed about-btn" href="#faq1">Make Question
+                </a><br>
+                <div id="faq1" class="collapse" data-parent="#faq-list">
+                  <div class="form">
+                  <div id="sendmessage">Your message has been sent. Thank you!</div>
+                  <div id="errormessage"></div>
+                  {!! Form::open(['class' => 'contactForm', 'action' => 'ShareController@store', 'method' => 'POST']) !!}
+                      <div class="form-group">
+                          <br>
+                          {{Form::text('blog', '', ['class' =>  'form-control','placeholder' => 'Topic Title','data-rule'  => 'minlen:4','data-msg' => 'Please enter at least 8 chars of subject'])}}
+                          <div class="validation"></div>
+                      </div>
+                      <div class="form-group">
+                          <br>
+                          {{Form::text('gambar', '', ['class' =>  'form-control','placeholder' => 'Link Gambar','data-rule'  => 'required','data-msg' => 'Please enter a picture that describe your topic'])}}
+                          <div class="validation"></div>
+                      </div>
+                      <div class="form-group">
+                          <br>
+                          {{Form::textarea('isi', '', ['class' =>  'form-control','placeholder' => 'Message', 'data-rule'  => 'required', 'data-msg' => 'Please enter at least 8 chars of subject', 'rows'=>'5'])}}
+                          <div class="validation"></div>
+                      </div>
+                        @guest
+                        <a class="btn btn-primary" href="{{ route('login') }}">{{ __('Login') }}</a>
+                        @else
+                        {{Form::submit('Send Question', ['class' => 'btn btn-primary'])}}
+                        @endguest
+                          {{-- <div class="text-center"><button type="submit">Send Question</button></div> --}}
+                  {!! Form::close() !!}
+                  </div>
                 </div>
-                <div class="form-group">
-                    <br>
-                    {{Form::text('gambar', '', ['class' =>  'form-control','placeholder' => 'Link Gambar','data-rule'  => 'required','data-msg' => 'Please enter a picture that describe your topic'])}}
-                    <div class="validation"></div>
-                </div>
-                <div class="form-group">
-                    <br>
-                    {{Form::textarea('isi', '', ['class' =>  'form-control','placeholder' => 'Message', 'data-rule'  => 'required', 'data-msg' => 'Please enter at least 8 chars of subject', 'rows'=>'5'])}}
-                    <div class="validation"></div>
-                </div>
-                    {{Form::submit('Send Question', ['class' => 'btn btn-primary'])}}
-                    {{-- <div class="text-center"><button type="submit">Send Question</button></div> --}}
-            {!! Form::close() !!}
-                </div>
-              </div>
               </li>
             </ul>
 
@@ -145,7 +149,7 @@
                              </div>
                                <div class="col-lg-10">
                                  <div class="tulis">
-                                 <h4>{{auth()->user()->id}}</h4>
+                                 <h4>{{$shr->user->name}}</h4>
                                  </div>
                                </div>
                                <div class="col-lg-1 drp_share">
@@ -169,7 +173,8 @@
                              <div class="col-lg-12">
                                <div class="tulis">
                                <h3><a href="/share/{{$shr->id_s}}">{{$shr->blog}}</a></h3>
-                               <hr>&nsbp
+                               <hr>
+                               <p>{{$shr->isi}}</p>
                              </div>
                              </div>
                            </div>

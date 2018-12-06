@@ -3,15 +3,18 @@
 @section('content')
     <div class="postingan wow fadeInUp">
         <div class="row">
-            <div class="col-sm-5">
+            <div class="col-lg-12">
                 <div class="speaker">
-                        <a href="https://www.youtube.com/watch?v={{$Motive->url}}" class="venobox play-btn mb-4" data-vbtype="video"
-                        data-autoplay="false"></a>
+                        <iframe width="420" height="315"
+                            src="https://www.youtube.com/embed/{{$Motive->url}}">
+                        </iframe> 
+                        {{-- <a href="https://www.youtube.com/watch?v={{$Motive->url}}" class="venobox play-btn mb-4" data-vbtype="video"
+                        data-autoplay="false"></a> --}}
                 </div>
             </div>
-            <div class="col-sm-7">
+            <div class="col-lg-12">
                 <h3>{{$Motive->judul}}</h3>
-           {{-- <p>{{$capt}}</p> --}}
+                <p>{{$Motive->capt}}</p>
                 <small>Submitted on {{$Motive->created_at}}</small>
                 <hr>
                 <a href="/motive/{{$Motive->id_m}}/edit" class="btn btn-primary">Edit</a>

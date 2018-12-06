@@ -2,7 +2,7 @@
 
 @section('content')
     <h3>Edit Blog</h3>
-    {!! Form::open(['class' => 'contactForm', 'action' => ['ShareController@store', $Share->id_s], 'method' => 'POST']) !!}
+    {!! Form::open(['action' => ['ShareController@update', $Share->id_s], 'method' => 'POST']) !!}
         <div class="form-group">
             <br>
             {{Form::text('blog', $Share->blog, ['class' =>  'form-control','placeholder' => 'Topic Title','data-rule'  => 'minlen:4','data-msg' => 'Please enter at least 8 chars of subject'])}}
@@ -19,7 +19,6 @@
             <div class="validation"></div>
         </div>
         {{Form::hidden('_method','PUT')}}
-        {{Form::submit('Send Question', ['class' => 'btn btn-primary'])}}
-        {{-- <div class="text-center"><button type="submit">Send Question</button></div> --}}
+        {{Form::submit('Submit', ['class' => 'btn btn-primary'])}}
     {!! Form::close() !!}
 @endsection

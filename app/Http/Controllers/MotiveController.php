@@ -38,12 +38,14 @@ class MotiveController extends Controller
     {
         $this->validate($request,  [
             'judul' => 'required',
-            'url' => 'required'
+            'url' => 'required',
+            'capt' => 'required'
         ]);
 
         $vds = new Motive;
         $vds->judul = $request->input('judul');
         $vds->url = $request->input('url');
+        $vds->capt = $request->input('capt');
         $vds->save();
 
         return redirect('/motive')->with('success', 'Motivation Video submitted');
@@ -84,12 +86,14 @@ class MotiveController extends Controller
     {
         $this->validate($request,  [
             'judul' => 'required',
-            'url' => 'required'
+            'url' => 'required',
+            'capt' => 'required'
         ]);
 
         $vds = Motive::find($id_m);
         $vds->judul = $request->input('judul');
         $vds->url = $request->input('url');
+        $vds->capt = $request->input('capt');
         $vds->save();
 
         return redirect('/motive')->with('success', 'Motivation Video updated');

@@ -17,7 +17,7 @@
           <li><a href="/about">About</a></li>
           <li><a href="/consultation">Consultation</a></li>
           <li class="menu-active"><a href="#motive">The Motivate</a></li>
-          <li><a href="/shareW">Share With Us</a></li>
+          <li><a href="/share">Share With Us</a></li>
           {{-- <li class="buy-tickets"><a href="#buy-tickets">Login</a></li> --}}
           @guest
             <li class="buy-tickets">
@@ -130,7 +130,52 @@
     <section id="consul_head">
       <div class="container wow fadeInUp">
         <div class="row">
-
+            <div class="col-lg-12">
+                <h2>SHARE WITH US</h2>
+              </div>
+              <div class="col-lg-8">
+    
+                <ul id="faq-list">
+    
+                  <li>
+                    @guest
+                    @else
+                    <a data-toggle="collapse" class="collapsed about-btn" href="#faq1">Post Video
+                    </a><br>
+                    <div id="faq1" class="collapse" data-parent="#faq-list">
+                      <div class="form">
+                      {{-- <div id="sendmessage">Your message has been sent. Thank you!</div> --}}
+                      <div id="errormessage"></div>
+                      
+                      {!! Form::open(['class' => 'contactForm', 'action' => 'MotiveController@store', 'method' => 'POST']) !!}
+                          <div class="form-group">
+                              <br>
+                              {{Form::text('judul', '', ['class' =>  'form-control','placeholder' => 'Judul','data-rule'  => 'minlen:4','data-msg' => 'Please enter at least 8 chars of subject'])}}
+                              <div class="validation"></div>
+                          </div>
+                          <div class="form-group">
+                              <br>
+                              {{Form::text('url', '', ['class' =>  'form-control','placeholder' => 'Url terakhir','data-rule'  => 'required','data-msg' => 'Please enter a picture that describe your topic'])}}
+                              <div class="validation"></div>
+                          </div>
+                          <div class="form-group">
+                              <br>
+                              {{Form::text('capt', '', ['class' =>  'form-control','placeholder' => 'Caption','data-rule'  => 'minlen:4','data-msg' => 'Please enter at least 8 chars of subject'])}}
+                              <div class="validation"></div>
+                          </div>
+                            {{Form::submit('Upload Video', ['class' => 'btn btn-primary'])}}
+                              {{-- <div class="text-center"><button type="submit">Send Question</button></div> --}}
+                      {!! Form::close() !!}
+                      </div>
+                    </div>
+                    @endguest
+                  </li>
+                </ul>
+    
+              </div>
+              <div class="col-lg-4">
+    
+              </div>
         </div>
       </div>
     </section>
@@ -146,16 +191,17 @@
                     @foreach ($Motive as $vds)
                     <div class="postingan wow fadeInUp">
                         <div class="row">
-                            <div class="col-sm-5">
+                            <div class="col-lg-12">
                                 <div class="speaker">
                                   <img src="https://img.youtube.com/vi/{{$vds->url}}/0.jpg" alt="" class="img-fluid">
                                 </div>
                             </div>
-                            <div class="col-sm-7">
-                              <h3><a href="/motive/{{$vds->id_m}}">{{$vds->judul}}</a></h3>
-                         {{-- <p>{{$capt}}</p> --}}
-                              <small>Submitted on {{$vds->created_at}}</small>
-                            </div>
+                            <div class="col-lg-12">
+                                <div class="tulis">
+                                    <h3><a href="/motive/{{$vds->id_m}}">{{$vds->judul}}</a></h3>
+                                    <p>{{$vds->capt}}</p>
+                                    <small>Submitted on {{$vds->created_at}}</small>
+                                </div>
                         </div>
                     </div>
                     @endforeach

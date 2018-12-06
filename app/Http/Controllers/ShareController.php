@@ -28,7 +28,7 @@ class ShareController extends Controller
 
         $shr = new Share;
         $shr->blog = $request->input('blog');
-        $shr->gbr = $request->input('gambar');
+        $shr->gambar = $request->input('gambar');
         $shr->isi = $request->input('isi');
         $shr->user_id = auth()->user()->id;
         $shr->save();
@@ -58,7 +58,7 @@ class ShareController extends Controller
 
         $shr = Share::find($id_s);
         $shr->blog = $request->input('blog');
-        $shr->gbr = $request->input('gambar');
+        $shr->gambar = $request->input('gambar');
         $shr->isi = $request->input('isi');
         $shr->user_id = auth()->user()->id;
         $shr->save();

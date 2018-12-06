@@ -32,7 +32,7 @@
                       <div class="col-lg-12">
                         <div class="tulis">
                         <h3>{{$title}}</h3>
-                        <hr>&nsbp
+                        <hr>
                       </div>
                       </div>
                     </div>

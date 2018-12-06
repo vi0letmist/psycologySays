@@ -10,7 +10,7 @@ class Consul extends Model
     public $primaryKey = 'id_c';
     public $timestamps = true;
 
-    public function users() {
+    public function user() {
     	return $this->belongsTo('App\User');
     }
 }

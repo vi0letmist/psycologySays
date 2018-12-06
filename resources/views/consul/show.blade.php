@@ -8,7 +8,7 @@
        </div>
      <div class="col-lg-7">
         <h3>{{$Consul->judul}}</h3>
-       <p>{{$Users->id}}</p>
+       <p>{{$Consul->user->name}}</p>
      </div>
      <div class="col-lg-1"></div>
      <div class="col-lg-3">
@@ -20,11 +20,15 @@
        </div>
      </div>
 </div>
-
-    <button class="btn btn-primary"><a href="/quest/{{$Consul->id_c}}/edit">Edit</a></button>
+    @guest
+    <a class="btn btn-primary" href="{{ route('login') }}">{{ __('Login') }}</a>
+    @else
+    <a href="/consultation/{{$Consul->id_c}}/edit" class="btn btn-primary">Edit</a>
 
     {!! Form::open(['action' => ['ConsulController@destroy', $Consul->id_c], 'method' => 'POST', 'class' => 'btn pull-right']) !!}
         {{Form::hidden('_method','DELETE')}}
         {{Form::submit('Delete', ['class' => 'btn btn-danger'])}}
     {!! Form::close() !!}
+    @endguest
+     
 @endsection

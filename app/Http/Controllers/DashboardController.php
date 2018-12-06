@@ -27,17 +27,17 @@ class DashboardController extends Controller
     public function index()
     {
         /* return view('home'); */
-        $request->user()->authorizeRoles(['user', 'admin']);
-        if (Auth::user()->hasRole('admin')) {
-            return view('admin.index');
-            }
+        // $request->user()->authorizeRoles(['user', 'admin']);
+        // if (Auth::user()->hasRole('admin')) {
+        //     return view('admin.index');
+        //     }
 
-        elseif (Auth::user()->hasRole('user')) {
+        // elseif (Auth::user()->hasRole('user')) {
 
             $user_id = auth()->user()->id;
             $user = User::find($user_id);
-            return view('dashboard')->with('submits', $user->submits);
+            return view('admin')->with('submits', $user->submits);
 
-        }
+        // }
     }
 }

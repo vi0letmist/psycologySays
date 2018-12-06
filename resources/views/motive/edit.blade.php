@@ -14,6 +14,10 @@
                         {{Form::label('url','URL')}}
                         {{Form::text('url', $Motive->url, ['class' =>  'form-control','placeholder' => 'URL Video'])}}
                     </div>
+                    <div class="form-group">
+                            {{Form::label('capt','Capt')}}
+                            {{Form::text('capt', $Motive->capt, ['class' =>  'form-control','placeholder' => 'Caption'])}}
+                        </div>
                     {{Form::hidden('_method','PUT')}}
                     {{Form::submit('Submit', ['class' => 'btn btn-primary'])}}
                 {!! Form::close() !!}

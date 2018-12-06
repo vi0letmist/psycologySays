@@ -55,7 +55,7 @@
           <li><a href="#about">About</a></li>
           <li><a href="#consultation">Consultation</a></li>
           <li><a href="#motive">The Motivate</a></li>
-          <li><a href="#shareW">Share With Us</a></li>
+          <li><a href="#share">Share With Us</a></li>
           {{-- <li class="buy-tickets"><a href="/login">Login</a></li> --}}
           @guest
             <li class="buy-tickets">
@@ -560,11 +560,11 @@
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Useful Links</h4>
             <ul>
-              <li><i class="fa fa-angle-right"></i> <a href="#">Home</a></li>
-              <li><i class="fa fa-angle-right"></i> <a href="#">About us</a></li>
-              <li><i class="fa fa-angle-right"></i> <a href="#">Services</a></li>
-              <li><i class="fa fa-angle-right"></i> <a href="#">Terms of service</a></li>
-              <li><i class="fa fa-angle-right"></i> <a href="#">Privacy policy</a></li>
+                <li><i class="fa fa-angle-right"></i> <a href="#">Home</a></li>
+                <li><i class="fa fa-angle-right"></i> <a href="#">About us</a></li>
+                <li><i class="fa fa-angle-right"></i> <a href="consultation">Consultation</a></li>
+                <li><i class="fa fa-angle-right"></i> <a href="share">Share with Us</a></li>
+                <li><i class="fa fa-angle-right"></i> <a href="motive">Motivational Video</a></li>
             </ul>
           </div>
 
