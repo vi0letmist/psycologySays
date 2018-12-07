@@ -21,7 +21,12 @@ Route::get('home', function () {
 Route::get('admin', function () {
     return view('admin');
 });
-
+Route::get('login1', function () {
+    return view('auth/login1');
+});
+Route::get('register1', function () {
+    return view('auth/register1');
+});
 Route::get('admin', 'DashboardController@index');
 /* Route::get('login', function () {
     return view('login');

@@ -55,7 +55,7 @@
           <li><a href="#about">About</a></li>
           <li><a href="#consultation">Consultation</a></li>
           <li><a href="#motive">The Motivate</a></li>
-          <li><a href="#share">Share With Us</a></li>
+          <li><a href="#shareW">Share With Us</a></li>
           {{-- <li class="buy-tickets"><a href="/login">Login</a></li> --}}
           @guest
             <li class="buy-tickets">
@@ -384,7 +384,7 @@
                     </div>
                       <div class="col-lg-12">
 
-                        <h3>Sakit tapi terdiagnosa sehat</h3>
+                        <h3>Sakit tapi terdiagnosa sehat, hah gimana</h3>
                         <hr>
                         <div class="text-center">
                           <a href="/shareW" class="btn">See More</a>
