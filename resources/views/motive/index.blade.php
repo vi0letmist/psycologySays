@@ -131,14 +131,12 @@
       <div class="container wow fadeInUp">
         <div class="row">
             <div class="col-lg-12">
-                <h2>SHARE WITH US</h2>
+                <h2>The Motivate</h2>
               </div>
-              <div class="col-lg-8">
-    
+              <div class="col-lg-8" style="margin: 0 0 0 -40px;">
                 <ul id="faq-list">
-    
-                  <li>
-                    @guest
+                 <li>
+                  @guest
                     @else
                     <a data-toggle="collapse" class="collapsed about-btn" href="#faq1">Post Video
                     </a><br>

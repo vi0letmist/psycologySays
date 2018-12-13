@@ -17,7 +17,7 @@
           <li><a href="/about">About</a></li>
           <li><a href="/consultation">Consultation</a></li>
           <li class="menu-active"><a href="#motive">The Motivate</a></li>
-          <li><a href="/shareW">Share With Us</a></li>
+          <li><a href="/share">Share With Us</a></li>
           {{-- <li class="buy-tickets"><a href="#buy-tickets">Login</a></li> --}}
           @guest
             <li class="buy-tickets">
@@ -127,13 +127,13 @@
     <!--==========================
       About Section
     ============================-->
-    <section id="consul_head">
+    <!--<section id="consul_head">
       <div class="container wow fadeInUp">
         <div class="row">
 
         </div>
       </div>
-    </section>
+    </section>-->
     <!--==========================
       Topic Section
     ============================-->

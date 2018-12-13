@@ -106,7 +106,7 @@
               <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
               <div class="validation"></div>
             </div>
-            <div class="text-center"><button type="submit">Send Question</button></div>
+            <div class="text-center"><button type="submit" class="collapsed about-btn">Send Question</button></div>
           </form>
         </div>
       </div>

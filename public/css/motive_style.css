@@ -15,7 +15,7 @@ body{
   display: block;
   width: 60px;
   height: 5px;
-  background: #bfe79e;
+  background: #f82249;
   bottom: 0;
   left: calc(50% - 25px);
 }
@@ -107,7 +107,7 @@ body{
 }
 
 #intro h1 span {
-  color: #bfe79e;
+  color: #f82249;
 }
 #intro h2 {
   font-size: 36px;
@@ -146,11 +146,11 @@ body{
   color: #fff;
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
-  border: 2px solid #bfe79e;
+  border: 2px solid #f82249;
 }
 
 #intro .about-btn:hover {
-  background: #bfe79e;
+  background: #f82249;
   color: #fff;
 }
 
@@ -241,12 +241,15 @@ body{
   color: #171717;
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
-  border: 2px solid #bfe79e;
+  border: 2px solid #f82249;
 }
 
 #consul_head .about-btn:hover {
-  background: #bfe79e;
+  background: #f82249;
   color: #fff;
+}
+#consul_head ul{
+  margin-left: 5px;
 }
 
 

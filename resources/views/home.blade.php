@@ -46,7 +46,7 @@
       <div id="logo" class="pull-left">
         <!-- Uncomment below if you prefer to use a text logo -->
         <!-- <h1><a href="#main">C<span>o</span>nf</a></h1>-->
-        <a href="#intro" class="scrollto">{{-- <img src="img/logo.png" alt="" title=""> --}}</a>
+        <a href="#intro" class="scrollto"><img src="img/logo.png" alt="" title=""></a>
       </div>
 
       <nav id="nav-menu-container">
@@ -387,7 +387,7 @@
                         <h3>Sakit tapi terdiagnosa sehat, hah gimana</h3>
                         <hr>
                         <div class="text-center">
-                          <a href="/shareW" class="btn">See More</a>
+                          <a href="/share" class="btn">See More</a>
                         </div>
 
                       </div>
@@ -416,7 +416,7 @@
                         <h3>Pusing kepala yang tak kunjung sembuh</h3>
                         <hr>
                         <div class="text-center">
-                          <a href="/shareW" class="btn">See More</a>
+                          <a href="/share" class="btn">See More</a>
                         </div>
 
                       </div>
@@ -446,7 +446,7 @@
                         <h3>Severe headache because of stress</h3>
                         <hr>
                         <div class="text-center">
-                          <a href="/shareW" class="btn">See More</a>
+                          <a href="/share" class="btn">See More</a>
                         </div>
 
                       </div>
@@ -541,7 +541,7 @@
         <div class="row">
 
           <div class="col-lg-3 col-md-6 footer-info">
-            {{-- <img src="img/logo.png" alt="TheEvenet"> --}}
+            <img src="img/logo.png" alt="TheEvenet">
             <p>Web ini dibuat sebagai penghubung antara Psikiater dan Calon Psikiater dengan Pasien maupun calon pasiennya.
                 Sehingga dapat memudahkan pengguna untuk mempermudah konsultasi tanpa terhalang oleh jarak dan terpisah oleh waktu.</p>
           </div>

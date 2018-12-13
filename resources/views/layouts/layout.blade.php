@@ -101,11 +101,11 @@
           <div class="col-lg-3 col-md-6 footer-contact">
             <h4>Contact Us</h4>
             <p>
-              A108 Adam Street <br>
-              New York, NY 535022<br>
-              United States <br>
-              <strong>Phone:</strong> +1 5589 55488 55<br>
-              <strong>Email:</strong> info@example.com<br>
+              Yogyakarta<br>
+              Daerah Istimewa Yogyakarta<br>
+              Indonesia <br>
+              <strong>Phone:</strong> +62 896 3318 7512<br>
+              <strong>Email:</strong> psycologySays@gmail.com<br>
             </p>
 
             <div class="social-links">
@@ -124,7 +124,7 @@
 
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong>TheEvent</strong>. All Rights Reserved
+        &copy; Copyright <strong>psycologySays</strong>. All Rights Reserved
       </div>
       <div class="credits">
         <!--
